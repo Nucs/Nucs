@@ -101,18 +101,18 @@
 ### Messaging & Real-time
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
-![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![MassTransit](https://img.shields.io/badge/MassTransit-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAExJREFUKJFjzNCq/s9ABmAiR9MQ08iCzJl+tYUhU7sGhY8OYPIYNqIrztSugStGNhRDI7IkPgDXiGzT/3+IqMXmXAYGBgbG0QSAGwAA4VAXQTn5pv8AAAAASUVORK5CYII=)
+![MassTransit](https://img.shields.io/badge/MassTransit-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAUBJREFUKJF10jFLm1EUBuDnMwQEtXQQbTo4SKFdXDrZpU7awc29BUFQ/0HaPxCXSnEqAR1K2x/g2qkgKCiIsYkILmIlqaBLhyLGpEPOR7/GeJZ7Oeee933PeS93I4nzEzZ61HvGV7zAPA7QxjUmuh/mMvcSlrCAUzzFOi4xiK372MrBcIvluKeyZ/Adr9PHfZm5HuFDqGhFLkE/1kJyKdvYh008xhD+hLxWsP9GBePYzza2UMdYFHbxAO8CZAXn+IVXvWY8xg72MItVTKEWYDm8T8dLMo1lnOAiFIxgGNVgq6KJaXxL7chFchuHMWMdPwO8gCIGkEctZUxCZhOjeIgbNHCFHyG3jZdYzNpRwVs8CYmF2OhRgHwO+cXu5RRxFsh5PMNzTOINvvjn73/LERtr63yGjzpfcE7Hz4aO3y34CxGJT2RKOh42AAAAAElFTkSuQmCC)
 
 ### Libraries & Patterns
-![AutoMapper](https://img.shields.io/badge/AutoMapper-BE161D?style=for-the-badge&logo=dotnet&logoColor=white)
-![FluentValidation](https://img.shields.io/badge/FluentValidation-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![Polly](https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![AutoMapper](https://img.shields.io/badge/AutoMapper-BE161D?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAaJJREFUKJGVkL9rVEEUhb95O5vnZlP5ErJrE42oIJYigvoHpFAJKGgK7W20sLSwtLJRRAQbC/8CFSzEWguRJEJi4Q9islrESNDszu6beyzey+quFjrNHeae7845032enKxHP7YOpPzbCZX8e5b8JwSQ9vzYuncjIwUkoTwH6e9y55D3mAOJ1EmDStv4xpfDx1AIhb5aZeLZY/z09OCctb0HS9BRGc+YeP4UtyNlbeoAbnSU5tJr1G7TOjNHWFrGABN4dUJ/Sv5plda+Q9QvzCGJXW9eka+2WDlyHEOYKCrgh6MI2HzwkNrsaagkfDx6Ag1Bf4CFjaKZ3bxB+8VLYrQBYLvvt3/5ZQVqJ2dw1Sor5y5ivkLM8z5gpTYxIEpEQXSO+vmzNO7e5uu9++Shw/63C4xfvUJ0joj6Wix0ZSHIQpAkyUyta9e12Nyt+caUPly6LJkVrV5P1u3KQldu49YdCYg/tth89IT2u/eY2YAtcw7faLBz9hRJrYYAt9zc0zGUDof/PXN/OeVmBSHp2FYWIRTeRYQyS1kp31TcBSG4XvYT15QUm8cbVrAAAAAASUVORK5CYII=)
+![FluentValidation](https://img.shields.io/badge/FluentValidation-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAGRJREFUKJGtUkEOwCAMAuP/v9wdthqDqEmznhoFilTCVACRPQHqfXOkcs3T7KQTYIj0HomjEvINAcTcC2a1w0+MIpoiSzLOqiZYSs/aO4Bfe5Ug2uzXbV/Pd5it3bGnG+G3v/cAv8UmEqK4xQgAAAAASUVORK5CYII=)
+![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYpJREFUKJGdkD1oFFEUhb/7ZmYXlgj+hBUFsQniTyUsi1YSy6Bgk2oLS5WFVOkUomBlGyJCutilSRHExjIgidoJKQSLCIkzzib+MG9l5713bcI6srhFTnX/zjmcC0eEVJuX27k676nFMZ2LpwRgZbun3jsiY/icfkweT0+7IfH083ervhzM2oOcTmuKqebxf9SdDzx9/Z7GiUnixgTpvatiAFR11sQJUVJj+dYV6fUdqS1JbUlWlDy8fk5MrY5JEtSVAJiqcr1ebwE8u3FecjsgtwM2du0FgOLRjIj8PY+rxHz+5odh3XcAbHYufxr5jKrEI8ND7P92/1uNOlbx/ajEXwM/lmhQlf6P9FLWbcvk4sZZgObSlpZBKYPSXNpSAFSlKL6dybptObm4ecwgoslEtAuQ9958BQgSWkNp1bcAiGjxRQ4A9ueu/ZTGwpri3W2CzpDUHtgnd+TQ1QMm67YFoLGwpjj3ApF1ouhVbPd2wJh1glrQoVHWbUfVTHZvB4S7iLlPCGPzj8UfCUagy39sBEQAAAAASUVORK5CYII=)
+![Polly](https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYFJREFUKJHFkTtL22EUh5/3TdJYEXQoVhxEG9RBMCExBu+hhU7OooOCXyCjeAcdFOJglyztJqIfQKcWUSveClbUQREUzeIl+veCeEn+5jiIIUHBTX/bOTzPGX4H3jrqNaAn39lu2VsLdi4UxcxTpcWwYUb0uU6GriqdE8nzss8j/burg63h8L3t+kOu3GrkRiE3KouvfdWRJ7Dh54wki/u1XlnamBa73S5Ts3Pdx35/BoDR6xIcAd9Zc8jfDvBlZEc2KjwJ+W+5e3KhzLW1sro2Yc4XpxwFoPFHnbSE/AJQMPxf/rjdMlriCgF05Zc2deQ5618sxxHwSVlBGnabAoSVozY+Ri5o/D2IEQOzJp3g2HJKkerkW7l8mvqnHAGfABR+tpGdaU0ApRdRLn9d0b+3niJatbrPOvnuFbZN9tOlogkWzcMo4we3aC1oBUPx519TAJtVHolryMkUlI6DRRAtWKxCcFExEF5/ZiYWs1533LgTdRYTjKhgxB5LfEl6nzwA4zqXXaP6j5cAAAAASUVORK5CYII=)
 ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=json&logoColor=white)
 
 ### Logging & Observability
-![Serilog](https://img.shields.io/badge/Serilog-B7178C?style=for-the-badge&logo=dotnet&logoColor=white)
+![Serilog](https://img.shields.io/badge/Serilog-B7178C?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMZJREFUKJGdkjsOgzAQRGdCCgpETYqUpMiBIkWKFCUX4ZQ0XIAjQIGYFDaL+SSgbONZ20+zuzaVZ8KeqGq3Xk4AgMM/0D5wBdoGqxp93y8gADj+gkhC7/vq8To4QPJz6zrget4AZxBJkFyUfJhDABzkL0mCJJAcBzUBHy93CDioqpEkCUiibVtzN1h5JuWZLLwGIGfodFEU070QbJpmFRp0mqaWj6U+b4jj2FLrK9BRFFnP5liW5VenUA/3aZ/cP0MYc9fwOT6ll6sAuBSGJgAAAABJRU5ErkJggg==)
 ![log4net](https://img.shields.io/badge/log4net-D22128?style=for-the-badge&logo=apache&logoColor=white)
 ![Loggly](https://img.shields.io/badge/Loggly-00BCD4?style=for-the-badge&logo=solarwinds&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
@@ -120,16 +120,16 @@
 ### API & DevTools
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
-![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
 ![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
 
 ### File Processing
 ![EPPlus](https://img.shields.io/badge/EPPlus-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
 ![ClosedXML](https://img.shields.io/badge/ClosedXML-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
-![CsvHelper](https://img.shields.io/badge/CsvHelper-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![CsvHelper](https://img.shields.io/badge/CsvHelper-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAH9JREFUKJFjZEAGi4MkGfCB2HXPYUwWFAnm/8/wamRgYIQxmAgoxAmGpUZWVKWovM+P2Bg+P2LDqvE/kwAylxGromWB/zHEotajqMV0KjZNTAzqmEKENDEwXGWIWH8Lv0YMwJjHELVeB5sMCzZBBkZGBobIddj9jxWsCuUhVikAhZYXWGXYOQgAAAAASUVORK5CYII=)
 
 ### Background Jobs
-![Hangfire](https://img.shields.io/badge/Hangfire-2980b9?style=for-the-badge&logo=dotnet&logoColor=white)
+![Hangfire](https://img.shields.io/badge/Hangfire-2980b9?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEBJREFUKJFj1Paq/s9ABmAiRxN1NV7Z2oKhCJsY/Z3Kgk3wwJJy8jTaR3eg8K9uayVOIyMjI0Eb6R84jEMnyQEA1JYNKUMboZcAAAAASUVORK5CYII=)
 ![Quartz.NET](https://img.shields.io/badge/Quartz.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### AI-Powered Development
