@@ -123,40 +123,20 @@ A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generat
 <tr>
 <td width="50%">
 
-### <img src="https://img.shields.io/badge/★-7-gold?style=flat-square&labelColor=1a1a2e"/> [nucs.Automation](https://github.com/Nucs/nucs.Automation) <img src="https://img.shields.io/badge/3K_downloads-004880?style=flat-square&logo=nuget"/>
-**Mouse & keyboard automation**
-Simulate user input, automate workflows, and control Windows programmatically.
+### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [Chaining](https://github.com/Nucs/Chaining)
+**Functional state machines**
+Create state machines in C# without classes or enums. Clean, functional approach to workflow logic.
 
-`#automation` `#windows` `#input`
-
-</td>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-6-gold?style=flat-square&labelColor=1a1a2e"/> [Autocad-Utilities](https://github.com/Nucs/Autocad-Utilities)
-**AutoCAD workflow plugins**
-A collection of plugins to ease the workflow in AutoCAD written in C#.
-
-`#autocad` `#plugins` `#cad`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [nucs.Filesystem](https://github.com/Nucs/nucs.Filesystem) <img src="https://img.shields.io/badge/9K_downloads-004880?style=flat-square&logo=nuget"/>
-**Windows filesystem utilities**
-Directory monitoring, random temp locations, and filesystem helpers.
-
-`#filesystem` `#windows` `#utilities`
+`#state-machine` `#functional` `#csharp`
 
 </td>
 <td width="50%">
 
-### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [Nucs.Essentials](https://github.com/Nucs/Nucs.Essentials) <img src="https://img.shields.io/badge/3K_downloads-004880?style=flat-square&logo=nuget"/>
-**Essential .NET utilities**
-Multithreading, collections, Span&lt;T&gt; text processing, runtime codegen.
+### <img src="https://img.shields.io/badge/★-1-gold?style=flat-square&labelColor=1a1a2e"/> [GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)
+**AI-generated cellular automaton game**
+Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4.
 
-`#utilities` `#performance` `#dotnet`
+`#gamedev` `#ai-generated` `#python`
 
 </td>
 </tr>
