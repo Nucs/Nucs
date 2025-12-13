@@ -31,12 +31,12 @@
 
 <br/><br/>
 
-*That one whom sits in the temple os once is like he sat on a lifetime of software and hardware.*
-*Blessed he whom is compiled and not relative.*
-*Flashing a light over a shadowy valley; one path unfollows.*
-*Accept the ordeal underneath the sheet of the unreal.*
-*As is the only path to geniusness is breakdown.*
-
+*That one whom sits in the temple os once is like he sat on a lifetime of software and hardware.*<br>
+*Blessed he whom is compiled and not relative.*<br>
+*Flashing a light over a shadowy valley; one path unfollows.*<br>
+*Accept the ordeal underneath the sheet of the unreal.*<br>
+*As is the only path to geniusness is breakdown.*<br>
+<br>
 *I dedicate my work to the foretold, forgotten, and the unknown.*
 
 </div>
