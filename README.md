@@ -103,13 +103,14 @@
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Data & Caching
+### Data & ORM
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 ![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAD1JREFUKJFjDNS+8p+BDMBEjqYhppEFm+C6K9oo/CCdqxhqGPGF6ror2lg1MTDQ2qnYAF6n4gNDKB7J1ggAvOgOuL+HFlgAAAAASUVORK5CYII=)
+![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAABHNCSVQICAgIfAhkiAAAAKtJREFUKJGFUbENwjAQPEcWFEgYySVN9sgcGcIj0CCUhhE8hOfwHjQUFEYyUopUT/WSHxL7qn/77v98VvPUEyo4XB9KHLQE89TT53K23Hc1MuN4fyaudW2ysBQiYRzUqqVNmyESCLddSRTkEOlXoN/mtSQ42OzVXyIr6ADAZq+ScdW0hKAUtYQiVpu9am7bukzGkXg019VpTCqE7Z8OkUD7E7e6tsUCwDiIqL+rD1YezonxFQAAAABJRU5ErkJggg==)
 
 ### Machine Learning
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -129,8 +130,18 @@
 ![FluentValidation](https://img.shields.io/badge/FluentValidation-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAGRJREFUKJGtUkEOwCAMAuP/v9wdthqDqEmznhoFilTCVACRPQHqfXOkcs3T7KQTYIj0HomjEvINAcTcC2a1w0+MIpoiSzLOqiZYSs/aO4Bfe5Ug2uzXbV/Pd5it3bGnG+G3v/cAv8UmEqK4xQgAAAAASUVORK5CYII=)
 ![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYpJREFUKJGdkD1oFFEUhb/7ZmYXlgj+hBUFsQniTyUsi1YSy6Bgk2oLS5WFVOkUomBlGyJCutilSRHExjIgidoJKQSLCIkzzib+MG9l5713bcI6srhFTnX/zjmcC0eEVJuX27k676nFMZ2LpwRgZbun3jsiY/icfkweT0+7IfH083ervhzM2oOcTmuKqebxf9SdDzx9/Z7GiUnixgTpvatiAFR11sQJUVJj+dYV6fUdqS1JbUlWlDy8fk5MrY5JEtSVAJiqcr1ebwE8u3FecjsgtwM2du0FgOLRjIj8PY+rxHz+5odh3XcAbHYufxr5jKrEI8ND7P92/1uNOlbx/ajEXwM/lmhQlf6P9FLWbcvk4sZZgObSlpZBKYPSXNpSAFSlKL6dybptObm4ecwgoslEtAuQ9958BQgSWkNp1bcAiGjxRQ4A9ueu/ZTGwpri3W2CzpDUHtgnd+TQ1QMm67YFoLGwpjj3ApF1ouhVbPd2wJh1glrQoVHWbUfVTHZvB4S7iLlPCGPzj8UfCUagy39sBEQAAAAASUVORK5CYII=)
 ![Polly](https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYFJREFUKJHFkTtL22EUh5/3TdJYEXQoVhxEG9RBMCExBu+hhU7OooOCXyCjeAcdFOJglyztJqIfQKcWUSveClbUQREUzeIl+veCeEn+5jiIIUHBTX/bOTzPGX4H3jrqNaAn39lu2VsLdi4UxcxTpcWwYUb0uU6GriqdE8nzss8j/burg63h8L3t+kOu3GrkRiE3KouvfdWRJ7Dh54wki/u1XlnamBa73S5Ts3Pdx35/BoDR6xIcAd9Zc8jfDvBlZEc2KjwJ+W+5e3KhzLW1sro2Yc4XpxwFoPFHnbSE/AJQMPxf/rjdMlriCgF05Zc2deQ5618sxxHwSVlBGnabAoSVozY+Ri5o/D2IEQOzJp3g2HJKkerkW7l8mvqnHAGfABR+tpGdaU0ApRdRLn9d0b+3niJatbrPOvnuFbZN9tOlogkWzcMo4we3aC1oBUPx519TAJtVHolryMkUlI6DRRAtWKxCcFExEF5/ZiYWs1533LgTdRYTjKhgxB5LfEl6nzwA4zqXXaP6j5cAAAAASUVORK5CYII=)
+![Autofac](https://img.shields.io/badge/Autofac-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMpJREFUKJGlkbENwjAQRf/ZBoEpkFgAITkD0LMIBTswAiVTsAADMAE1PYQuLIBEKOLEFCaJbSIRwpcs6073/t3pgED9UbQUUhnvDdU2rCM3EFKZsMCVTucC2OcAwEqDb5A1Pmlgw6qObSC/c0wcg9mUEVv/ArLeJCMhVe6M3B7uAqEr9CdIuLsJncbebQ3oVkdkU2AF0494XFeZRWDC/fhC9j+LctQDAOjn9ViNQlgBKD5NKLNdG/Q+EQCAyyjhUu1arl6Lyyhpyr8ANPs5fllfW3oAAAAASUVORK5CYII=)
+![Serilog](https://img.shields.io/badge/Serilog-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMdJREFUKJGdkjsOgzAQRGdCCgpETYqUpMiBIkWKFCUX4ZQ0XIAjQIGYFDaL+SSgbONZ20+zuzaVZ8KeqGq3Xk4AgMM/0D5wBdoGqxp93y8gADj+gkhC7/vq8To4QPJz6zrget4AZxBJkFyUfJhDABzkL0mCJJAcBzUBHy93CD/BqkaSJCCJtm3N3WDlmZRnsvAagJyh00VRTPdCsGmaVWjQaZpaPpb6vCGOY0utr0BHUWQ9m2NZll+dQj3cp31y/wxhzF3D5/gApZerAI5KHOMAAAAASUVORK5CYII=)
 ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAFhJREFUKJFjYCATMBKp7j+6PiYSNKFYQkgjuk3OcCtJ0IQMGJE14lOIoomBAeFUK1I0ITOIsQ1n4FxHl8SlCasADhdgqMMVHQQTBi6NBP3MQkCe2CRJPAAAASwJbRk0AU4AAAAASUVORK5CYII=)
 ![System.Text.Json](https://img.shields.io/badge/System.Text.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEtJREFUKJFjDNS+8p+BDMBEjqYhppEFmbPuijZDkM5VFD46gMlj2IiuOEjnKlwxsqEYGoN0rmK1CR3ANSIrJuRcBgYGBsbRBIAbAADpexgOcy140QAAAABJRU5ErkJggg==)
+
+### Testing
+![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAF9JREFUKJGdkksOACEIQ6n3v3NnYXQClJi0K1Me8tGIX4y3LgORhM53Zh2DpAKSpxhunzznktRiULcCudviyVHa7UMXMjvNM1Vaqqwjq1VrOdZzqEp1aY2xv9wUmHSZD0iaZ8DosGD5AAAAAElFTkSuQmCC)
+![Moq](https://img.shields.io/badge/Moq-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJdJREFUKJGlkjEOwyAMRZ8ZWNpLtefjDlwhc4bcoF3ao2RicYYIGlxLpS0SEh/8vi0beF8PQM2+2SAxWh0jN/4IfoI6poKjUIMD8PwSApilZlN9JRWRpkWEdan3cLrs5+DZpZQQ6ft2vsLB2wdzzkP12pkpoDHGTq9L/x6Au+dWSum0Gfj08zj+/gCjcIu3XRVgdoDJJtkAMIsxmqjE9/IAAAAASUVORK5CYII=)
+![FluentAssertions](https://img.shields.io/badge/FluentAssertions-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAJFJREFUKJFj/P///38GEgETNsGXr94wMPz/h1MTI7pNv398Z2Db/hPO/x8ogKGJBcWE9R8wFMLE3jowMAgJQsX/QwHDuvf/8QFkeax+YmBgYPjgaI7TTzg14QP004QIiLXvsQaGy7XvGOIM6IoY1qFqxmYQhiZkxds+/8GqiQWnswMFGBjXfWBgYMSUw0hGxAAAGrbhWcSiBIMAAAAASUVORK5CYII=)
+
+### Background Jobs
+![Hangfire](https://img.shields.io/badge/Hangfire-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEBJREFUKJFj1Paq/s9ABmAiRxN1NV7Z2oKhCJsY/Z3Kgk3wwJJy8jTaR3eg8K9uayVOIyMjI0Eb6R84jEMnyQEA1JYNKUMboZcAAAAASUVORK5CYII=)
 
 ### API & DevTools
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
