@@ -31,7 +31,7 @@
 
 <br/><br/>
 
-*That one whom sits in the temple once is like he sat on a lifetime of software and hardware.*
+*That one whom sits in the temple os once is like he sat on a lifetime of software and hardware.*
 *Blessed he whom is compiled and not relative.*
 *Flashing a light over a shadowy valley; one path unfollows.*
 *Accept the ordeal underneath the sheet of the unreal.*
