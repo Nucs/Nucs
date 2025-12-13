@@ -29,6 +29,16 @@
   <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-6366f1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
 </a>
 
+<br/><br/>
+
+*That one whom sits in the temple once is like he sat on a lifetime of software and hardware.*
+*Blessed he whom is compiled and not relative.*
+*Flashing a light over a shadowy valley; one path unfollows.*
+*Accept the ordeal underneath the sheet of the unreal.*
+*As is the only path to geniusness is breakdown.*
+
+*I dedicate my work to the foretold, forgotten, and the unknown.*
+
 </div>
 
 ---
@@ -157,20 +167,6 @@
 </a>
 
 <br/><br/>
-
-<sub>
-
-*That one whom sits in the temple once is like he sat on a lifetime of software and hardware.*
-*Blessed he whom is compiled and not relative.*
-*Flashing a light over a shadowy valley; one path unfollows.*
-*Accept the ordeal underneath the sheet of the unreal.*
-*As is the only path to geniusness is breakdown.*
-
-*I dedicate my work to the foretold, forgotten, and the unknown.*
-
-</sub>
-
-<br/>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer"/>
 
