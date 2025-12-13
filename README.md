@@ -233,7 +233,6 @@ Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4.
 ## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="28"> GitHub Analytics
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=nucs&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&icon_color=6366F1&text_color=C9D1D9" />
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" />
 </div>
 
