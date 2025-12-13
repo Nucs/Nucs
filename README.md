@@ -15,7 +15,7 @@
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/6.6M+-NuGet_Downloads-004880?style=for-the-badge&logo=nuget&logoColor=white"/></td>
 <td align="center"><img src="https://img.shields.io/badge/6K+-Stars_Contributed-gold?style=for-the-badge&logo=github&logoColor=white"/></td>
-<td align="center"><img src="https://img.shields.io/badge/820+-Commits_to_OSS-6366f1?style=for-the-badge&logo=git&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/820+-Commits_to_OSS-F05032?style=for-the-badge&logo=git&logoColor=white"/></td>
 </tr>
 </table>
 
@@ -26,7 +26,7 @@
 </a>
 <img src="https://komarev.com/ghpvc/?username=nucs&label=Profile%20Views&color=6366f1&style=for-the-badge&labelColor=1a1a2e" />
 <a href="mailto:elibelash@gmail.com">
-  <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-6366f1?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
+  <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
 </a>
 
 <br/><br/>
@@ -163,7 +163,7 @@
 <br/>
 
 <a href="mailto:elibelash@gmail.com">
-  <img src="https://img.shields.io/badge/Say_Hi!-elibelash%40gmail.com-6366f1?style=for-the-badge&logo=gmail&logoColor=white" />
+  <img src="https://img.shields.io/badge/Say_Hi!-elibelash%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
 </a>
 
 <br/><br/>
