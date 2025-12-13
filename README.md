@@ -1,4 +1,20 @@
 <div align="center">
+<sub>
+
+*That one whom sits in the temple once is like he sat on a lifetime of software and hardware.*
+*Blessed he whom is compiled and not relative.*
+*Flashing a light over a shadowy valley; one path unfollows.*
+*Accept the ordeal underneath the sheet of the unreal.*
+*As is the only path to geniusness is breakdown.*
+
+*I dedicate my work to the foretold, forgotten, and the unknown.*
+
+</sub>
+</div>
+
+<br/>
+
+<div align="center">
 
 # Hey, I'm Eli Belash <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
 
