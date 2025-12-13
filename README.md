@@ -62,8 +62,8 @@
 ### Core Stack
 ![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=xaml&logoColor=white)
+![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=windows&logoColor=white)
+![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=windows&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -113,8 +113,8 @@
 
 ### Logging & Observability
 ![Serilog](https://img.shields.io/badge/Serilog-B7178C?style=for-the-badge&logo=dotnet&logoColor=white)
-![log4net](https://img.shields.io/badge/log4net-D22128?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
-![Loggly](https://img.shields.io/badge/Loggly-00BCD4?style=for-the-badge&logo=loggly&logoColor=white)
+![log4net](https://img.shields.io/badge/log4net-D22128?style=for-the-badge&logo=apache&logoColor=white)
+![Loggly](https://img.shields.io/badge/Loggly-00BCD4?style=for-the-badge&logo=solarwinds&logoColor=white)
 ![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
 
 ### API & DevTools
