@@ -49,13 +49,19 @@
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
 | **[Regen](https://github.com/Nucs/Regen)** | ⭐ 24 | In-code templating engine — a T4 replacement with intuitive regen-lang syntax. |
 | **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional state machines in C# — no classes or enums, clean workflow logic. |
-| **[GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)** | ⭐ 1 | Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4. |
+| **[GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)** | ⭐ 1 | Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4, an artifact of time. |
 
 <br/>
 
 ---
 
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24"> Tech Arsenal
+
+<div align="center">
+  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" />
+</div>
+
+<br/>
 
 <div align="center">
 
@@ -67,21 +73,15 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### Azure Ecosystem
+### DevOps & Infrastructure
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Azure Pipelines](https://img.shields.io/badge/Pipelines-2560E0?style=for-the-badge&logo=azurepipelines&logoColor=white)
 ![Azure Functions](https://img.shields.io/badge/Azure_Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white)
-![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![Azure Blob](https://img.shields.io/badge/Blob_Storage-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Event Hubs](https://img.shields.io/badge/Event_Hubs-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
-![Event Grid](https://img.shields.io/badge/Event_Grid-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Azure Identity](https://img.shields.io/badge/Azure_Identity-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![App Insights](https://img.shields.io/badge/App_Insights-68217A?style=for-the-badge&logo=microsoftazure&logoColor=white)
-
-### DevOps & Infrastructure
-![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
-![Azure Pipelines](https://img.shields.io/badge/Pipelines-2560E0?style=for-the-badge&logo=azurepipelines&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
@@ -89,6 +89,7 @@
 
 ### Data & Caching
 ![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
@@ -99,6 +100,9 @@
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 
 ### Messaging & Real-time
+![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Event Hubs](https://img.shields.io/badge/Event_Hubs-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Event Grid](https://img.shields.io/badge/Event_Grid-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
 ![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAExJREFUKJFjzNCq/s9ABmAiR9MQ08iCzJl+tYUhU7sGhY8OYPIYNqIrztSugStGNhRDI7IkPgDXiGzT/3+IqMXmXAYGBgbG0QSAGwAA4VAXQTn5pv8AAAAASUVORK5CYII=)
@@ -111,50 +115,14 @@
 ![Polly](https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYFJREFUKJHFkTtL22EUh5/3TdJYEXQoVhxEG9RBMCExBu+hhU7OooOCXyCjeAcdFOJglyztJqIfQKcWUSveClbUQREUzeIl+veCeEn+5jiIIUHBTX/bOTzPGX4H3jrqNaAn39lu2VsLdi4UxcxTpcWwYUb0uU6GriqdE8nzss8j/burg63h8L3t+kOu3GrkRiE3KouvfdWRJ7Dh54wki/u1XlnamBa73S5Ts3Pdx35/BoDR6xIcAd9Zc8jfDvBlZEc2KjwJ+W+5e3KhzLW1sro2Yc4XpxwFoPFHnbSE/AJQMPxf/rjdMlriCgF05Zc2deQ5618sxxHwSVlBGnabAoSVozY+Ri5o/D2IEQOzJp3g2HJKkerkW7l8mvqnHAGfABR+tpGdaU0ApRdRLn9d0b+3niJatbrPOvnuFbZN9tOlogkWzcMo4we3aC1oBUPx519TAJtVHolryMkUlI6DRRAtWKxCcFExEF5/ZiYWs1533LgTdRYTjKhgxB5LfEl6nzwA4zqXXaP6j5cAAAAASUVORK5CYII=)
 ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAFhJREFUKJFjYCATMBKp7j+6PiYSNKFYQkgjuk3OcCtJ0IQMGJE14lOIoomBAeFUK1I0ITOIsQ1n4FxHl8SlCasADhdgqMMVHQQTBi6NBP3MQkCe2CRJPAAAASwJbRk0AU4AAAAASUVORK5CYII=)
 
-### Logging & Observability
-![Serilog](https://img.shields.io/badge/Serilog-B7178C?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMZJREFUKJGdkjsOgzAQRGdCCgpETYqUpMiBIkWKFCUX4ZQ0XIAjQIGYFDaL+SSgbONZ20+zuzaVZ8KeqGq3Xk4AgMM/0D5wBdoGqxp93y8gADj+gkhC7/vq8To4QPJz6zrget4AZxBJkFyUfJhDABzkL0mCJJAcBzUBHy93CDioqpEkCUiibVtzN1h5JuWZLLwGIGfodFEU070QbJpmFRp0mqaWj6U+b4jj2FLrK9BRFFnP5liW5VenUA/3aZ/cP0MYc9fwOT6ll6sAuBSGJgAAAABJRU5ErkJggg==)
-![log4net](https://img.shields.io/badge/log4net-D22128?style=for-the-badge&logo=apache&logoColor=white)
-![Loggly](https://img.shields.io/badge/Loggly-00BCD4?style=for-the-badge&logo=solarwinds&logoColor=white)
-![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
-
 ### API & DevTools
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=grpc&logoColor=white)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
-
-### File Processing
-![EPPlus](https://img.shields.io/badge/EPPlus-217346?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYpJREFUKJGdkksoRHEUxn//e69h6BpSHgsl8t4wFsPC0o4F2ViILJTNxAJXGkJpPGIoFpSElY1SWIk8EmkIC5FSEhaIUpjhb0FTN4Zydufxne/7OkfQnCv5R2imzP9Khi0OZ1EddfnlptbM3iJ9ix4O7i4hJBSBM0VijQTgtn2VoZUJOtemgjLpisZj9w5CSikB1s73iLHayI5LDgy1zffRtTwGVh3p9iLqUyFMB0D85VG6vQgjD+Xdx1vvAWWTTuaON4IDp8tcVM66QLP8uDAg9fHlia3zfUpGq3j2nKK25P0mBE0YdlNhrnY8AIqNiObGtUxUUw4PimJm/CbV7wMt5EeWh451bK0O3vuPMK1ZqhkJCgKwtReCZiGrpxhRPd0YYEyMjufi/vpXbwhAgqA+XQLIwWNEQwa8+XCkFbB9tguqBv5XpOfkG14hNBxUFYBDYwGsOhYtjKvOzc9TWMJxDFcAkN1fijDsCMP+5VH5fFlVKMiefQDi9Rik2wtAUlQCmQNfv+t7BuAD3sZ7md9aUGMAAAAASUVORK5CYII=)
-![ClosedXML](https://img.shields.io/badge/ClosedXML-217346?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHpJREFUKJG10D0OgCAMBeCH8WQMTJLA7PmYIdHJwVsx64SBFvAnsWPTj0cLfCwBAJM3xxu02iCGu6HF+Gq/CxOq4SbMh6VTDFdhjLFA+7yxx8ZWknQKAC6U91hi6xAUFYl0p5REAUvUwTLUq+KrOtjmTl1Ikx8nUvxLnXF4MFboEkn3AAAAAElFTkSuQmCC)
-![CsvHelper](https://img.shields.io/badge/CsvHelper-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAH9JREFUKJFjZEAGi4MkGfCB2HXPYUwWFAnm/8/wamRgYIQxmAgoxAmGpUZWVKWovM+P2Bg+P2LDqvE/kwAylxGromWB/zHEotajqMV0KjZNTAzqmEKENDEwXGWIWH8Lv0YMwJjHELVeB5sMCzZBBkZGBobIddj9jxWsCuUhVikAhZYXWGXYOQgAAAAASUVORK5CYII=)
-
-### Background Jobs
-![Hangfire](https://img.shields.io/badge/Hangfire-2980b9?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEBJREFUKJFj1Paq/s9ABmAiRxN1NV7Z2oKhCJsY/Z3Kgk3wwJJy8jTaR3eg8K9uayVOIyMjI0Eb6R84jEMnyQEA1JYNKUMboZcAAAAASUVORK5CYII=)
-![Quartz.NET](https://img.shields.io/badge/Quartz.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### AI-Powered Development
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
-</div>
-
-<br/>
-
----
-
-## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="28"> GitHub Analytics
-
-<div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=nucs&theme=tokyonight&hide_border=true&background=0D1117&stroke=6366F1&ring=6366F1&fire=F97316&currStreakLabel=6366F1" />
-</div>
-
-<br/>
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=nucs&theme=discord&no-frame=true&no-bg=true&column=7&margin-w=10" />
 </div>
 
 <br/>
