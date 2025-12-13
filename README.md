@@ -79,8 +79,6 @@ Async API connector for IQFeed market data. Reimplemented rate limiter, fixed da
 </tr>
 </table>
 
-### My Projects
-
 <table>
 <tr>
 <td width="50%">
