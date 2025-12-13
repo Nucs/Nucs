@@ -107,7 +107,7 @@ Nested objects, dictionaries, lists — just inherit and go.
 <tr>
 <td width="50%">
 
-### <img src="https://img.shields.io/badge/★-35-gold?style=flat-square&labelColor=1a1a2e"/> [FontRegister](https://github.com/Nucs/FontRegister)
+### <img src="https://img.shields.io/badge/★-35-gold?style=flat-square&labelColor=1a1a2e"/> [FontRegister](https://github.com/Nucs/FontRegister) <img src="https://img.shields.io/badge/1K_downloads-004880?style=flat-square&logo=nuget"/>
 **Windows font installation made trivial**
 CLI tool for font management — install, uninstall, list fonts programmatically.
 
@@ -118,27 +118,53 @@ CLI tool for font management — install, uninstall, list fonts programmatically
 
 ### <img src="https://img.shields.io/badge/★-24-gold?style=flat-square&labelColor=1a1a2e"/> [Regen](https://github.com/Nucs/Regen)
 **In-code templating engine**
-A T4 replacement that doesn't suck. Intuitive regen-lang syntax.
+A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generation.
 
 `#code-generation` `#templating`
 
 </td>
 </tr>
+<tr>
+<td width="50%">
+
+### <img src="https://img.shields.io/badge/★-7-gold?style=flat-square&labelColor=1a1a2e"/> [nucs.Automation](https://github.com/Nucs/nucs.Automation) <img src="https://img.shields.io/badge/3K_downloads-004880?style=flat-square&logo=nuget"/>
+**Mouse & keyboard automation**
+Simulate user input, automate workflows, and control Windows programmatically.
+
+`#automation` `#windows` `#input`
+
+</td>
+<td width="50%">
+
+### <img src="https://img.shields.io/badge/★-6-gold?style=flat-square&labelColor=1a1a2e"/> [Autocad-Utilities](https://github.com/Nucs/Autocad-Utilities)
+**AutoCAD workflow plugins**
+A collection of plugins to ease the workflow in AutoCAD written in C#.
+
+`#autocad` `#plugins` `#cad`
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [nucs.Filesystem](https://github.com/Nucs/nucs.Filesystem) <img src="https://img.shields.io/badge/9K_downloads-004880?style=flat-square&logo=nuget"/>
+**Windows filesystem utilities**
+Directory monitoring, random temp locations, and filesystem helpers.
+
+`#filesystem` `#windows` `#utilities`
+
+</td>
+<td width="50%">
+
+### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [Nucs.Essentials](https://github.com/Nucs/Nucs.Essentials) <img src="https://img.shields.io/badge/3K_downloads-004880?style=flat-square&logo=nuget"/>
+**Essential .NET utilities**
+Multithreading, collections, Span&lt;T&gt; text processing, runtime codegen.
+
+`#utilities` `#performance` `#dotnet`
+
+</td>
+</tr>
 </table>
-
-<details>
-<summary><b>More Projects</b></summary>
-<br/>
-
-| Project | Downloads | Description |
-|---------|-----------|-------------|
-| [Nucs.JsonSettings.Autosave](https://www.nuget.org/packages/Nucs.JsonSettings.Autosave) | 22K | Auto-saving extension for JsonSettings |
-| [nucs.Filesystem](https://github.com/Nucs/nucs.Filesystem) | 9K | Windows filesystem utilities and monitoring |
-| [nucs.Automation](https://github.com/Nucs/nucs.Automation) | 3K | Mouse/keyboard automation library |
-| [Nucs.Essentials](https://github.com/Nucs/Nucs.Essentials) | 3K | Multithreading, collections, Span, runtime codegen |
-| [Nucs.Optimization](https://www.nuget.org/packages/Nucs.Optimization) | 2K | Numerical optimization algorithms |
-
-</details>
 
 <br/>
 
