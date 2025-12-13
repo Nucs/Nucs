@@ -188,6 +188,8 @@ Multithreading, collections, Span&lt;T&gt; text processing, runtime codegen.
 ![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Event Hubs](https://img.shields.io/badge/Event_Hubs-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![Event Grid](https://img.shields.io/badge/Event_Grid-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure Identity](https://img.shields.io/badge/Azure_Identity-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
 ![App Insights](https://img.shields.io/badge/App_Insights-68217A?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
 ### DevOps & Infrastructure
@@ -198,15 +200,50 @@ Multithreading, collections, Span&lt;T&gt; text processing, runtime codegen.
 ![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
-### Data & ML
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+### Data & Caching
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-### Message Brokers & Streaming
+### Machine Learning
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+
+### Messaging & Real-time
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![MassTransit](https://img.shields.io/badge/MassTransit-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+### Libraries & Patterns
+![AutoMapper](https://img.shields.io/badge/AutoMapper-BE161D?style=for-the-badge&logo=dotnet&logoColor=white)
+![FluentValidation](https://img.shields.io/badge/FluentValidation-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![MediatR](https://img.shields.io/badge/MediatR-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Polly](https://img.shields.io/badge/Polly-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=json&logoColor=white)
+
+### Logging & Observability
+![Serilog](https://img.shields.io/badge/Serilog-B7178C?style=for-the-badge&logo=dotnet&logoColor=white)
+![log4net](https://img.shields.io/badge/log4net-D22128?style=for-the-badge&logo=apachenetbeanside&logoColor=white)
+![Loggly](https://img.shields.io/badge/Loggly-00BCD4?style=for-the-badge&logo=loggly&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white)
+
+### API & DevTools
+![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
+![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
+![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=google&logoColor=white)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)
+
+### File Processing
+![EPPlus](https://img.shields.io/badge/EPPlus-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![ClosedXML](https://img.shields.io/badge/ClosedXML-217346?style=for-the-badge&logo=microsoftexcel&logoColor=white)
+![CsvHelper](https://img.shields.io/badge/CsvHelper-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
+
+### Background Jobs
+![Hangfire](https://img.shields.io/badge/Hangfire-2980b9?style=for-the-badge&logo=dotnet&logoColor=white)
+![Quartz.NET](https://img.shields.io/badge/Quartz.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
 ### AI-Powered Development
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
