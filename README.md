@@ -38,109 +38,18 @@
 
 ## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> Open Source Contributions
 
-### Core Maintainer
-
-<table>
-<tr>
-<td width="50%">
-
-### [NumSharp](https://github.com/SciSharp/NumSharp) <img src="https://img.shields.io/badge/🥇_Main_Contributor-573_commits-gold?style=flat-square"/>
-<img src="https://img.shields.io/badge/★-1.5K-yellow?style=flat-square"/> <img src="https://img.shields.io/badge/NuGet-3.7M_downloads-004880?style=flat-square&logo=nuget"/>
-
-NumPy for .NET — the fundamental library for scientific computing. Architected and rewrote the core library, implemented broadcasting, backend architecture, and performance optimizations.
-
-</td>
-<td width="50%">
-
-### [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) <img src="https://img.shields.io/badge/🥉_%233_Contributor-143_commits-CD7F32?style=flat-square"/>
-<img src="https://img.shields.io/badge/★-3.4K-yellow?style=flat-square"/> <img src="https://img.shields.io/badge/NuGet-2.9M_downloads-004880?style=flat-square&logo=nuget"/>
-
-TensorFlow bindings for .NET. Added multithreading support, Keras activations, fixed critical heap corruption, performance optimization.
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### [CodeMinion](https://github.com/SciSharp/CodeMinion) <img src="https://img.shields.io/badge/🥈_%232_Contributor-104_commits-silver?style=flat-square"/>
-<img src="https://img.shields.io/badge/★-35-yellow?style=flat-square"/>
-
-Code generation toolkit for SciSharp. Implemented custom regen compiler and templating system.
-
-</td>
-<td width="50%">
-
-### [IQFeed.CSharpApiClient](https://github.com/mathpaquette/IQFeed.CSharpApiClient) <img src="https://img.shields.io/badge/%234_Contributor-silver?style=flat-square"/>
-<img src="https://img.shields.io/badge/★-124-yellow?style=flat-square"/>
-
-Async API connector for IQFeed market data. Reimplemented rate limiter, fixed data type overflow issues.
-
-</td>
-</tr>
-</table>
-
-<table>
-<tr>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-94-gold?style=flat-square&labelColor=1a1a2e"/> [cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)
-**590 days of high-frequency trade data**
-BTC/ETH/LTC/NEO tick-by-tick trading data for ML research and backtesting.
-
-`#data` `#crypto` `#machine-learning`
-
-</td>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-82-gold?style=flat-square&labelColor=1a1a2e"/> [JsonSettings](https://github.com/Nucs/JsonSettings) <img src="https://img.shields.io/badge/57K_downloads-004880?style=flat-square&logo=nuget"/>
-**Elegant configuration management for .NET**
-Nested objects, dictionaries, lists — just inherit and go.
-
-`#csharp` `#configuration` `#nuget`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-35-gold?style=flat-square&labelColor=1a1a2e"/> [FontRegister](https://github.com/Nucs/FontRegister) <img src="https://img.shields.io/badge/1K_downloads-004880?style=flat-square&logo=nuget"/>
-**Windows font installation made trivial**
-CLI tool for font management — install, uninstall, list fonts programmatically.
-
-`#windows` `#fonts` `#cli`
-
-</td>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-24-gold?style=flat-square&labelColor=1a1a2e"/> [Regen](https://github.com/Nucs/Regen)
-**In-code templating engine**
-A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generation.
-
-`#code-generation` `#templating`
-
-</td>
-</tr>
-<tr>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-2-gold?style=flat-square&labelColor=1a1a2e"/> [Chaining](https://github.com/Nucs/Chaining)
-**Functional state machines**
-Create state machines in C# without classes or enums. Clean, functional approach to workflow logic.
-
-`#state-machine` `#functional` `#csharp`
-
-</td>
-<td width="50%">
-
-### <img src="https://img.shields.io/badge/★-1-gold?style=flat-square&labelColor=1a1a2e"/> [GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)
-**AI-generated cellular automaton game**
-Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4.
-
-`#gamedev` `#ai-generated` `#python`
-
-</td>
-</tr>
-</table>
+| Project | Stats | Description |
+|---------|-------|-------------|
+| **[NumSharp](https://github.com/SciSharp/NumSharp)** | ⭐ 1.5K &nbsp; 📦 3.7M &nbsp; 🥇 Main Contributor | NumPy for .NET — scientific computing library. Architected core, broadcasting, backend. |
+| **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | ⭐ 3.4K &nbsp; 📦 2.9M &nbsp; 🥉 #3 Contributor | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
+| **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
+| **[IQFeed.CSharpApiClient](https://github.com/mathpaquette/IQFeed.CSharpApiClient)** | ⭐ 124 &nbsp; #4 Contributor | Async API connector for IQFeed market data. Rate limiter, data type fixes. |
+| **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
+| **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 82 &nbsp; 📦 57K | Config management for .NET — nested objects, dictionaries, zero boilerplate. |
+| **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 35 &nbsp; 📦 1K | Windows CLI for font management — install, uninstall, list fonts programmatically. |
+| **[Regen](https://github.com/Nucs/Regen)** | ⭐ 24 | In-code templating engine — a T4 replacement with intuitive regen-lang syntax. |
+| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional state machines in C# — no classes or enums, clean workflow logic. |
+| **[GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)** | ⭐ 1 | Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4. |
 
 <br/>
 
