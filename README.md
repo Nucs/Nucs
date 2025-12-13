@@ -42,10 +42,10 @@
 <tr>
 <td width="50%">
 
-### [NumSharp](https://github.com/SciSharp/NumSharp) <img src="https://img.shields.io/badge/🥇_%231_Contributor-573_commits-gold?style=flat-square"/>
+### [NumSharp](https://github.com/SciSharp/NumSharp) <img src="https://img.shields.io/badge/🥇_Main_Contributor-573_commits-gold?style=flat-square"/>
 <img src="https://img.shields.io/badge/★-1.5K-yellow?style=flat-square"/> <img src="https://img.shields.io/badge/NuGet-3.7M_downloads-004880?style=flat-square&logo=nuget"/>
 
-NumPy for .NET — the fundamental library for scientific computing. Rewrote backend architecture, implemented broadcasting, optimized performance.
+NumPy for .NET — the fundamental library for scientific computing. Architected and rewrote the core library, implemented broadcasting, backend architecture, and performance optimizations.
 
 </td>
 <td width="50%">
