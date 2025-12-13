@@ -97,10 +97,22 @@ A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generat
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
-### Infrastructure & DevOps
+### Azure Ecosystem
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure Functions](https://img.shields.io/badge/Azure_Functions-0062AD?style=for-the-badge&logo=azurefunctions&logoColor=white)
+![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![Azure Blob](https://img.shields.io/badge/Blob_Storage-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Event Hubs](https://img.shields.io/badge/Event_Hubs-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![Event Grid](https://img.shields.io/badge/Event_Grid-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white)
+![App Insights](https://img.shields.io/badge/App_Insights-68217A?style=for-the-badge&logo=microsoftazure&logoColor=white)
+
+### DevOps & Infrastructure
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=azuredevops&logoColor=white)
+![Azure Pipelines](https://img.shields.io/badge/Pipelines-2560E0?style=for-the-badge&logo=azurepipelines&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 
 ### Data & ML
@@ -112,6 +124,9 @@ A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generat
 ### Message Brokers & Streaming
 ![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)
+
+### AI-Powered Development
+![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
 </div>
 
