@@ -36,7 +36,9 @@
 
 <br/>
 
-## <img src="https://img.shields.io/badge/🥇-Core_Maintainer-gold?style=flat-square"/> Open Source Contributions
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> Open Source Contributions
+
+### Core Maintainer
 
 <table>
 <tr>
@@ -77,11 +79,7 @@ Async API connector for IQFeed market data. Reimplemented rate limiter, fixed da
 </tr>
 </table>
 
-<br/>
-
----
-
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> My Projects
+### My Projects
 
 <table>
 <tr>
