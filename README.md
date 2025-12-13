@@ -10,6 +10,18 @@
 
 <br/>
 
+### Open Source Impact
+
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/6.6M+-NuGet_Downloads-004880?style=for-the-badge&logo=nuget&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/6K+-Stars_Contributed-gold?style=for-the-badge&logo=github&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/820+-Commits_to_OSS-6366f1?style=for-the-badge&logo=git&logoColor=white"/></td>
+</tr>
+</table>
+
+<br/>
+
 <a href="https://github.com/Nucs?tab=followers">
   <img src="https://img.shields.io/github/followers/nucs?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e&color=6366f1" />
 </a>
@@ -24,7 +36,52 @@
 
 <br/>
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> Featured Projects
+## <img src="https://img.shields.io/badge/🥇-Core_Maintainer-gold?style=flat-square"/> Open Source Contributions
+
+<table>
+<tr>
+<td width="50%">
+
+### [NumSharp](https://github.com/SciSharp/NumSharp) <img src="https://img.shields.io/badge/🥇_%231_Contributor-573_commits-gold?style=flat-square"/>
+<img src="https://img.shields.io/badge/★-1.5K-yellow?style=flat-square"/> <img src="https://img.shields.io/badge/NuGet-3.7M_downloads-004880?style=flat-square&logo=nuget"/>
+
+NumPy for .NET — the fundamental library for scientific computing. Rewrote backend architecture, implemented broadcasting, optimized performance.
+
+</td>
+<td width="50%">
+
+### [TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET) <img src="https://img.shields.io/badge/🥉_%233_Contributor-143_commits-CD7F32?style=flat-square"/>
+<img src="https://img.shields.io/badge/★-3.4K-yellow?style=flat-square"/> <img src="https://img.shields.io/badge/NuGet-2.9M_downloads-004880?style=flat-square&logo=nuget"/>
+
+TensorFlow bindings for .NET. Added multithreading support, Keras activations, fixed critical heap corruption, performance optimization.
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### [CodeMinion](https://github.com/SciSharp/CodeMinion) <img src="https://img.shields.io/badge/🥈_%232_Contributor-104_commits-silver?style=flat-square"/>
+<img src="https://img.shields.io/badge/★-35-yellow?style=flat-square"/>
+
+Code generation toolkit for SciSharp. Implemented custom regen compiler and templating system.
+
+</td>
+<td width="50%">
+
+### [IQFeed.CSharpApiClient](https://github.com/mathpaquette/IQFeed.CSharpApiClient) <img src="https://img.shields.io/badge/%234_Contributor-silver?style=flat-square"/>
+<img src="https://img.shields.io/badge/★-124-yellow?style=flat-square"/>
+
+Async API connector for IQFeed market data. Reimplemented rate limiter, fixed data type overflow issues.
+
+</td>
+</tr>
+</table>
+
+<br/>
+
+---
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> My Projects
 
 <table>
 <tr>
@@ -32,18 +89,18 @@
 
 ### <img src="https://img.shields.io/badge/★-94-gold?style=flat-square&labelColor=1a1a2e"/> [cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)
 **590 days of high-frequency trade data**
-BTC/ETH/LTC/NEO tick-by-tick trading data for ML research and backtesting. One of the most comprehensive crypto tick datasets on GitHub.
+BTC/ETH/LTC/NEO tick-by-tick trading data for ML research and backtesting.
 
-`#data` `#crypto` `#machine-learning` `#research`
+`#data` `#crypto` `#machine-learning`
 
 </td>
 <td width="50%">
 
-### <img src="https://img.shields.io/badge/★-82-gold?style=flat-square&labelColor=1a1a2e"/> [JsonSettings](https://github.com/Nucs/JsonSettings)
+### <img src="https://img.shields.io/badge/★-82-gold?style=flat-square&labelColor=1a1a2e"/> [JsonSettings](https://github.com/Nucs/JsonSettings) <img src="https://img.shields.io/badge/57K_downloads-004880?style=flat-square&logo=nuget"/>
 **Elegant configuration management for .NET**
-Nested objects, dictionaries, lists — just inherit and go. Zero boilerplate config files with full Json.NET power.
+Nested objects, dictionaries, lists — just inherit and go.
 
-`#csharp` `#configuration` `#json` `#nuget`
+`#csharp` `#configuration` `#nuget`
 
 </td>
 </tr>
@@ -52,34 +109,34 @@ Nested objects, dictionaries, lists — just inherit and go. Zero boilerplate co
 
 ### <img src="https://img.shields.io/badge/★-35-gold?style=flat-square&labelColor=1a1a2e"/> [FontRegister](https://github.com/Nucs/FontRegister)
 **Windows font installation made trivial**
-CLI tool for font management — install, uninstall, list fonts programmatically. Perfect for automated deployments.
+CLI tool for font management — install, uninstall, list fonts programmatically.
 
-`#windows` `#fonts` `#cli` `#devops`
+`#windows` `#fonts` `#cli`
 
 </td>
 <td width="50%">
 
 ### <img src="https://img.shields.io/badge/★-24-gold?style=flat-square&labelColor=1a1a2e"/> [Regen](https://github.com/Nucs/Regen)
 **In-code templating engine**
-A T4 replacement that doesn't suck. Intuitive regen-lang syntax for code generation without the ceremony.
+A T4 replacement that doesn't suck. Intuitive regen-lang syntax.
 
-`#code-generation` `#templating` `#csharp` `#tooling`
+`#code-generation` `#templating`
 
 </td>
 </tr>
 </table>
 
 <details>
-<summary><b>🔧 More Projects</b></summary>
+<summary><b>More Projects</b></summary>
 <br/>
 
-| Project | Description |
-|---------|-------------|
-| [nucs.Automation](https://github.com/Nucs/nucs.Automation) | Mouse/keyboard automation library for Windows |
-| [Autocad-Utilities](https://github.com/Nucs/Autocad-Utilities) | AutoCAD workflow plugins in C# |
-| [Nucs.Essentials](https://github.com/Nucs/Nucs.Essentials) | Multithreading, collections, Span<T>, runtime codegen |
-| [Chaining](https://github.com/Nucs/Chaining) | Functional state machines without classes or enums |
-| [Alda](https://github.com/Nucs/Alda) | AutoCAD LISP hot-reload debugger |
+| Project | Downloads | Description |
+|---------|-----------|-------------|
+| [Nucs.JsonSettings.Autosave](https://www.nuget.org/packages/Nucs.JsonSettings.Autosave) | 22K | Auto-saving extension for JsonSettings |
+| [nucs.Filesystem](https://github.com/Nucs/nucs.Filesystem) | 9K | Windows filesystem utilities and monitoring |
+| [nucs.Automation](https://github.com/Nucs/nucs.Automation) | 3K | Mouse/keyboard automation library |
+| [Nucs.Essentials](https://github.com/Nucs/Nucs.Essentials) | 3K | Multithreading, collections, Span, runtime codegen |
+| [Nucs.Optimization](https://www.nuget.org/packages/Nucs.Optimization) | 2K | Numerical optimization algorithms |
 
 </details>
 
