@@ -81,6 +81,7 @@
 ![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAKVJREFUKJHNkbEVwjAMRA9oUl6Z8rIJTEJKyozACN6AlJS0bOERNII2MEUIz/HLi6l4qDxJ1r8z8HclqZekUt9/sTsA8FI8FK8Hkq27x/kagAZAQ/Ls7s81pFHSWGhxxnz3bwtUSQEAzKzPlo6TZJb1dvNs7jEVEFcAoZpAjqKp4paVTzju/iB5ItkC6AHci5BoZpety+y6zmqEa//IlNJQ9fbzegE4cjim74kRVgAAAABJRU5ErkJggg==)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Pythonnet](https://img.shields.io/badge/Pythonnet-3776AB?style=for-the-badge&logo=python&logoColor=white)
 
 ### DevOps & Infrastructure
 ![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAL5JREFUKJGVkmEVgkAQhGcp4EUgAhGIcBGIQAQjYAMj0EAjaAIjSIPPH3K6LjzU+XVv2Jn3sXemIKCXtAv2ZGaHOOtDmaduwe+AvBU88lbj/AQc/WwVsr61Kwczm37B5C/cgPkV16PGtusWblUwtbyCQVIdvPMH7grmNKP1m9udBwFOQHJ+DQxxF+UQt3kHWjc4hmAH5GplKUlSBvbuvxr3fZSUPWbRZW5ugRFoXMmLwuZHnXyjmZVwktRrqekBxmEErxuEmCEAAAAASUVORK5CYII=)
@@ -128,6 +129,7 @@
 ![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAFhJREFUKJFjYCATMBKp7j+6PiYSNKFYQkgjuk3OcCtJ0IQMGJE14lOIoomBAeFUK1I0ITOIsQ1n4FxHl8SlCasADhdgqMMVHQQTBi6NBP3MQkCe2CRJPAAAASwJbRk0AU4AAAAASUVORK5CYII=)
 ![System.Text.Json](https://img.shields.io/badge/System.Text.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEtJREFUKJFjDNS+8p+BDMBEjqYhppEFmbPuijZDkM5VFD46gMlj2IiuOEjnKlwxsqEYGoN0rmK1CR3ANSIrJuRcBgYGBsbRBIAbAADpexgOcy140QAAAABJRU5ErkJggg==)
 ![Hangfire](https://img.shields.io/badge/Hangfire-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEBJREFUKJFj1Paq/s9ABmAiRxN1NV7Z2oKhCJsY/Z3Kgk3wwJJy8jTaR3eg8K9uayVOIyMjI0Eb6R84jEMnyQEA1JYNKUMboZcAAAAASUVORK5CYII=)![Quartz.NET](https://img.shields.io/badge/Quartz.NET-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAU5JREFUKJGNUj1LA0EUnL3EYKVgKbi7uYuoB1ZiYS2ClUksLEQQwVpLe8E/oKVdhAvYiYUflaKFlWAribmksLMJGBPEGwvdZHOn6FS783aG92afgIVxKd1IOFWbA8VWtVE7QAzCHDyl2XvMWwKhEGLNUNV6KOJieErTCGeAAVfK+d/qXSilsoaMF9PlZeIov2mJHxJuvu9nbNH58z3f3juP5u5K/WEbO18zRTed11azNyIvF692MZjOTBjuqRGmbGMHAIRwKgRahly/218AAFEuRiRHEqEASAMAgQ06YtKQpbltAQBL13sU5eILydOc1v0GOal3TO+u1BdxZ5InCApst9vJZO24PZk91Frn3TF31lOqAgDTUz4RFBgxqiV6NmJP6W5IWaXO+v4wKJDkMOzN+RbXAci4qb01Q8erbK4EyS36CyRHSab+8fRHcekT4FeMNZxVZwUAAAAASUVORK5CYII=)
+![Elsa Workflows](https://img.shields.io/badge/Elsa_Workflows-512BD4?style=for-the-badge)
 
 ### Testing & Benchmarking
 ![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAF9JREFUKJGdkksOACEIQ6n3v3NnYXQClJi0K1Me8tGIX4y3LgORhM53Zh2DpAKSpxhunzznktRiULcCudviyVHa7UMXMjvNM1Vaqqwjq1VrOdZzqEp1aY2xv9wUmHSZD0iaZ8DosGD5AAAAAElFTkSuQmCC)
@@ -135,14 +137,19 @@
 ![Moq](https://img.shields.io/badge/Moq-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJdJREFUKJGlkjEOwyAMRZ8ZWNpLtefjDlwhc4bcoF3ao2RicYYIGlxLpS0SEh/8vi0beF8PQM2+2SAxWh0jN/4IfoI6poKjUIMD8PwSApilZlN9JRWRpkWEdan3cLrs5+DZpZQQ6ft2vsLB2wdzzkP12pkpoDHGTq9L/x6Au+dWSum0Gfj08zj+/gCjcIu3XRVgdoDJJtkAMIsxmqjE9/IAAAAASUVORK5CYII=)
 ![FluentAssertions](https://img.shields.io/badge/FluentAssertions-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAJFJREFUKJFj/P///38GEgETNsGXr94wMPz/h1MTI7pNv398Z2Db/hPO/x8ogKGJBcWE9R8wFMLE3jowMAgJQsX/QwHDuvf/8QFkeax+YmBgYPjgaI7TTzg14QP004QIiLXvsQaGy7XvGOIM6IoY1qFqxmYQhiZkxds+/8GqiQWnswMFGBjXfWBgYMSUw0hGxAAAGrbhWcSiBIMAAAAASUVORK5CYII=)
 ![BenchmarkDotNet](https://img.shields.io/badge/BenchmarkDotNet-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAKBJREFUKJFjYBj+gBGboLFV7H9k/tljizHUMTIwMDBoaWmxMXGqtDEyMHiwsfNr//zxEUUROwc/hmasNjIwMDDoGPnBbWXn4Gf4/+/vg3MnlinCxFjwaWBgYGC4cm4To46R3392DgEFBgYGhn///v1nZGTEbiOa5teMTCyil8+sI86pDAwMDB/a5QQZ/v1+x8DAwPA2+gSDsoI8XvXDDQAAhPoo8Ff+WdQAAAAASUVORK5CYII=)
+![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![SpecFlow](https://img.shields.io/badge/SpecFlow-6B4F8E?style=for-the-badge)
 
 ### API & DevTools
 ![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)
 ![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)
 ![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAG5JREFUKJHVkMsJgEAMRF+swFIE7caj1WgfWo2yLdiCFYyXgL8Fc9R3CYHMTBj4N5KSDlaf3fmmyIh6oAImMzOgzJk/hEANYGat73NUGCInXAAkjb43YbdbOUmSXhM9qQIGLwdgiyauutKH3/0eO4U2Tayiu53oAAAAAElFTkSuQmCC)
+![RestSharp](https://img.shields.io/badge/RestSharp-512BD4?style=for-the-badge)
+![Protobuf](https://img.shields.io/badge/Protobuf-4285F4?style=for-the-badge)
 
 ### AI-Powered Development
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-D97757?style=for-the-badge&logo=anthropic&logoColor=white)![Agent SDK](https://img.shields.io/badge/Agent_SDK-D97757?style=for-the-badge&logo=anthropic&logoColor=white)
 
 </div>
 
