@@ -75,7 +75,6 @@
 <div align="center">
 
 ### Core Stack
-![C#](https://img.shields.io/badge/C%23-512BD4?style=for-the-badge&logo=csharp&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 ![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHlJREFUKJHlkcENwzAMA09FB2E26Sb1CB3Jo6SbcIRs4HziwjBixOg3/EiAeKIAwZ+K2kh6AeUKsP39gZIyoMkw2041bZ09sXofs0CvO4DPo26S3oAv/AK2FvwACVgAIiKVUnLfN97B2uavox9HB6Qj+UzZdh7M5rUDQS8gls8k7tUAAAAASUVORK5CYII=)
 ![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAKVJREFUKJHNkbEVwjAMRA9oUl6Z8rIJTEJKyozACN6AlJS0bOERNII2MEUIz/HLi6l4qDxJ1r8z8HclqZekUt9/sTsA8FI8FK8Hkq27x/kagAZAQ/Ls7s81pFHSWGhxxnz3bwtUSQEAzKzPlo6TZJb1dvNs7jEVEFcAoZpAjqKp4paVTzju/iB5ItkC6AHci5BoZpety+y6zmqEa//IlNJQ9fbzegE4cjim74kRVgAAAABJRU5ErkJggg==)
