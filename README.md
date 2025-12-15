@@ -5,7 +5,7 @@
 
 <br/>
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=If+it's+hard%2C+I+am+doing+it.;13%2B+years+of+building+impossible+things;.NET+%7C+ML+%7C+Low-Level+Systems+%7C+DevOps)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=13%2B+years+of+building+impossible+things;.NET+%7C+ML+%7C+Low-Level+Systems+%7C+DevOps;If+it's+hard%2C+I+am+doing+it.)](https://git.io/typing-svg)
 
 <br/>
 
@@ -102,7 +102,7 @@
 [![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/postgres/postgres)
 [![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/mongodb/mongo)
 [![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://github.com/redis/redis)
-[![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAD1JREFUKJFjDNS+8p+BDMBEjqYhppEFm+C6K9oo/CCdqxhqGPGF6ror2lg1MTDQ2qnYAF6n4gNDKB7J1ggAvOgOuL+HFlgAAAAASUVORK5CYII=)](https://github.com/dotnet/efcore)
+[![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAARUlEQVR4nGNgoDdgBBH/////jyHByIhTDgSYyLWRBZstWJ3GiCpHto2M2PyBbPp/HP4fQn5kIlcjilORAwKfsymykWwAAAUXFCdjdsNAAAAAAElFTkSuQmCC)](https://github.com/dotnet/efcore)
 [![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAABHNCSVQICAgIfAhkiAAAAKtJREFUKJGFUbENwjAQPEcWFEgYySVN9sgcGcIj0CCUhhE8hOfwHjQUFEYyUopUT/WSHxL7qn/77v98VvPUEyo4XB9KHLQE89TT53K23Hc1MuN4fyaudW2ysBQiYRzUqqVNmyESCLddSRTkEOlXoN/mtSQ42OzVXyIr6ADAZq+ScdW0hKAUtYQiVpu9am7bukzGkXg019VpTCqE7Z8OkUD7E7e6tsUCwDiIqL+rD1YezonxFQAAAABJRU5ErkJggg==)](https://github.com/DapperLib/Dapper)
 
 ### Machine Learning
