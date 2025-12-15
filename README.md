@@ -108,6 +108,13 @@
 ### Machine Learning
 [![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/tensorflow)
 [![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/pytorch/pytorch)
+[![ML.NET](https://img.shields.io/badge/ML.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/dotnet/machinelearning)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/numpy/numpy)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/pandas-dev/pandas)
+[![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)](https://github.com/onnx/onnx)
+[![XGBoost](https://img.shields.io/badge/XGBoost-F04B2D?style=for-the-badge)](https://github.com/dmlc/xgboost)
+[![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=for-the-badge)](https://github.com/microsoft/LightGBM)
+[![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge)](https://github.com/catboost/catboost)
 
 ### Messaging & Real-time
 [![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJNJREFUKJGtkMsNgzAUBPchCvCRWyiHIx2FDiAVUEJSAqkASnAJdDA5RJEsxzEfZY4rzfus9C+AGuiBmTczcN2SXCDEDLlN4w8JgNSWe04IaENx2Cl9GAFngJd0Odjhzb5u34cvJD1PiFZIStec5yFJAlpgAtaNYiagA5zFo4BGUhXFi5ktYVAmzqgk1VHmT7yT5gUcJv1FkjB/lgAAAABJRU5ErkJggg==)](https://docs.microsoft.com/en-us/azure/service-bus-messaging/)
