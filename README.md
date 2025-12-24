@@ -53,6 +53,7 @@
 | **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | ⭐ 3.4K &nbsp; 📦 2.9M &nbsp; 🥉 #3 Contributor | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
 | **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 82 &nbsp; 📦 57K | Config management for .NET — nested objects, dictionaries, zero boilerplate. |
 | **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 35 &nbsp; 📦 1K | Windows CLI for font management — install, uninstall, list fonts programmatically. |
+| **[utf8clip](https://github.com/Nucs/utf8clip)** | ⭐ 0 | Replacement for clip.exe for cross-platform support for both read from/write to clipboard and uses UTF-8 encoding. |
 | **[ogedit](https://github.com/Nucs/ogedit)** | ⭐ 0 | Fast terminal text editor — a fork of Microsoft Edit with more features, written in Rust. |
 | **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
