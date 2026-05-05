@@ -54,12 +54,10 @@
 | **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 82 &nbsp; 📦 57K | Config management for .NET — nested objects, dictionaries, zero boilerplate. |
 | **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 35 &nbsp; 📦 1K | Windows CLI for font management — install, uninstall, list fonts programmatically. |
 | **[utf8clip](https://github.com/Nucs/utf8clip)** | ⭐ 0 | Replacement for clip.exe for cross-platform support for both read from/write to clipboard and uses UTF-8 encoding. |
-| **[ogedit](https://github.com/Nucs/ogedit)** | ⭐ 0 | Fast terminal text editor — a fork of Microsoft Edit with more features, written in Rust. |
+| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional in-memory state machines in C# — no classes or enums, clean workflow logic. |
 | **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
 | **[Regen](https://github.com/Nucs/Regen)** | ⭐ 24 | In-code templating engine — a T4 replacement with intuitive regen-lang syntax. |
-| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional state machines in C# — no classes or enums, clean workflow logic. |
-| **[GameOfLifePingPong](https://github.com/Nucs/GameOfLifePingPong)** | ⭐ 1 | Conway's Game of Life meets Ping Pong — created entirely by ChatGPT 4, an artifact of time. |
 
 <br/>
 
