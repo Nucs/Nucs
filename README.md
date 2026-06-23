@@ -74,6 +74,21 @@
 
 <div align="center">
 
+### How I Used to Code — Then vs. Now
+
+<table>
+<tr>
+  <td align="center"><img src="assets/era-2012-2020.svg" width="430" alt="Most used languages 2012–2020"/></td>
+  <td align="center"><img src="assets/era-2021-2025.svg" width="430" alt="Most used languages 2021–2025"/></td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
 ### Core Stack
 [![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/dotnet/runtime)
 [![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHlJREFUKJHlkcENwzAMA09FB2E26Sb1CB3Jo6SbcIRs4HziwjBixOg3/EiAeKIAwZ+K2kh6AeUKsP39gZIyoMkw2041bZ09sXofs0CvO4DPo26S3oAv/AK2FvwACVgAIiKVUnLfN97B2uavox9HB6Qj+UzZdh7M5rUDQS8gls8k7tUAAAAASUVORK5CYII=)](https://github.com/dotnet/wpf)
