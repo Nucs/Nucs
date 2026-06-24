@@ -67,19 +67,19 @@
 ## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24"> Tech Arsenal
 
 <div align="center">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9" />
-</div>
-
-<br/>
-
-<div align="center">
 
 ### How I Used to Code — Then vs. Now
 
 <table>
 <tr>
-  <td align="center"><img src="assets/era-2012-2020.svg" width="430" alt="Most used languages 2012–2020"/></td>
-  <td align="center"><img src="assets/era-2021-2025.svg" width="430" alt="Most used languages 2021–2025"/></td>
+  <td align="center"><img src="assets/era-2012-2020.svg" width="300" alt="Most used languages 2012–2020"/></td>
+  <td align="center"><img src="assets/era-2021-2025.svg" width="300" alt="Most used languages 2021–2025"/></td>
+  <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&exclude_repo=ML.NET.Api" width="300" alt="Most used languages — live (present)"/></td>
+</tr>
+<tr>
+  <td align="center"><b>Development between 2012–2020</b></td>
+  <td align="center"><b>Development between 2021–2025</b></td>
+  <td align="center"><b>Development — Present (Live)</b></td>
 </tr>
 </table>
 
