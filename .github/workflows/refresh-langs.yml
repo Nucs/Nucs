@@ -1,0 +1,88 @@
+name: Refresh language card
+
+# Keeps assets/langs-live.svg (the "Languages - Present" card in README.md) up to date
+# WITHOUT the README ever depending on a live third-party service at view time.
+#
+# How the cadence works (per request):
+#   * The job runs DAILY, but only regenerates when the committed card is >= 28 days old
+#     -> in practice it refreshes about once a MONTH.
+#   * A successful run commits the new card, which resets the "age" clock, so it then goes
+#     quiet for ~a month.
+#   * A failed run (e.g. GitHub API hiccup) commits nothing, so the card stays >= 28 days
+#     old and the NEXT day's run retries -- i.e. "keep trying daily until one succeeds".
+#
+# The card is rendered by .github/scripts/render_langs.py directly from the GitHub GraphQL
+# API (no external render service), so both build time and view time are self-contained.
+
+on:
+  schedule:
+    - cron: "23 7 * * *"        # daily at 07:23 UTC
+  workflow_dispatch:            # manual run
+    inputs:
+      force:
+        description: "Refresh now even if the card is not yet 28 days old"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-langs
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout (full history, so the staleness check can read the card's last commit date)
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Is a refresh due?
+        id: due
+        run: |
+          set -euo pipefail
+          file="assets/langs-live.svg"
+          if [ "${{ inputs.force }}" = "true" ] || [ ! -f "$file" ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+            echo "Refresh due (forced or file missing)."
+            exit 0
+          fi
+          last=$(git log -1 --format=%ct -- "$file" 2>/dev/null || echo 0)
+          now=$(date -u +%s)
+          age_days=$(( (now - last) / 86400 ))
+          echo "Card is ${age_days} day(s) old (threshold: 28)."
+          if [ "$age_days" -ge 28 ]; then
+            echo "due=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "due=false" >> "$GITHUB_OUTPUT"
+            echo "Not due yet -- next refresh in $((28 - age_days)) day(s)."
+          fi
+
+      - name: Set up Python
+        if: steps.due.outputs.due == 'true'
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Render the language card
+        if: steps.due.outputs.due == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}   # used by `gh api graphql` inside the script
+        run: python .github/scripts/render_langs.py
+
+      - name: Commit if the card changed
+        if: steps.due.outputs.due == 'true'
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- assets/langs-live.svg; then
+            echo "No change to commit."
+            exit 0
+          fi
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/langs-live.svg
+          git commit -m "chore(readme): refresh live language card"
+          git push
