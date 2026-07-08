@@ -74,7 +74,7 @@
 <tr>
   <td align="center"><img src="assets/era-2012-2020.svg" width="300" alt="Most used languages 2012–2020"/></td>
   <td align="center"><img src="assets/era-2021-2025.svg" width="300" alt="Most used languages 2021–2025"/></td>
-  <td align="center"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=nucs&layout=compact&theme=tokyonight&hide_border=true&bg_color=0D1117&title_color=6366F1&text_color=C9D1D9&exclude_repo=ML.NET.Api" width="300" alt="Most used languages — live (present)"/></td>
+  <td align="center"><img src="assets/langs-live.svg" width="300" alt="Most used languages — live (present)"/></td>
 </tr>
 <tr>
   <td align="center"><b>Development between 2012–2020</b></td>
