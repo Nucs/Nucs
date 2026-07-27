@@ -40,8 +40,10 @@
 
      Migrated from Azure Functions to Cloudflare Workers on 2026-07-27. The count carried over via
      base_count, so the badge did not reset. The old collector at func-nucsviews.azurewebsites.net
-     is still deployed and still answers 200, but nothing points at it any more. -->
-<img src="https://ossanalytics.nucs.workers.dev/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
+     is still deployed and still answers 200, but nothing points at it any more.
+     osscdn.nucs.workers.dev is the canonical host; ossanalytics.nucs.workers.dev is the same
+     service under a second name and also still answers, so either URL keeps working. -->
+<img src="https://osscdn.nucs.workers.dev/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
 
 <br/><br/>
 
