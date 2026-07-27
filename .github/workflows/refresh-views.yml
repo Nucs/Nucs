@@ -19,7 +19,7 @@ name: Refresh profile views card
 # request is classified as a bot/direct hit by the collector, so refreshing the card never inflates
 # the view count.
 #
-# Collector source, design notes and cost model: github.com/Nucs/profile-analytics (private).
+# Collector source, design notes and cost model: github.com/Nucs/OssAnalytics (private).
 # This workflow lives here rather than there because it commits into this repo.
 
 on:
