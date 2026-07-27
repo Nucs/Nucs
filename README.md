@@ -30,12 +30,14 @@
 </a>
 
 <!-- Profile-views counter, self-hosted (replaces komarev.com/ghpvc).
-     The visible number above is the COMMITTED assets/profile-views.svg, refreshed hourly by
+     The visible number above is the COMMITTED assets/profile-views.svg, refreshed by
      .github/workflows/refresh-views.yml, so GitHub serves it and it cannot fail to render -- the
      same reasoning as the static language card. This 1x1 transparent pixel is what actually counts
      the view: if the collector is cold or down, a transparent pixel that fails to load is
-     indistinguishable from one that loads. Collector source: github.com/Nucs/profile-analytics -->
-<img src="https://func-nucsviews.azurewebsites.net/api/px?slug=profile" width="1" height="1" alt="" />
+     indistinguishable from one that loads.
+     The repo= parameter scopes the count, so the same card can be embedded in other repositories
+     and still be reported separately. Collector source: github.com/Nucs/OssAnalytics -->
+<img src="https://func-nucsviews.azurewebsites.net/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
 
 <br/><br/>
 
