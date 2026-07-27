@@ -24,10 +24,18 @@
 <a href="https://github.com/Nucs?tab=followers">
   <img src="https://img.shields.io/github/followers/nucs?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e&color=6366f1" />
 </a>
-<img src="https://komarev.com/ghpvc/?username=nucs&label=Profile%20Views&color=6366f1&style=for-the-badge&labelColor=1a1a2e" />
+<img src="assets/profile-views.svg" alt="Profile Views" />
 <a href="mailto:elibelash@gmail.com">
   <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
 </a>
+
+<!-- Profile-views counter, self-hosted (replaces komarev.com/ghpvc).
+     The visible number above is the COMMITTED assets/profile-views.svg, refreshed hourly by
+     .github/workflows/refresh-views.yml, so GitHub serves it and it cannot fail to render -- the
+     same reasoning as the static language card. This 1x1 transparent pixel is what actually counts
+     the view: if the collector is cold or down, a transparent pixel that fails to load is
+     indistinguishable from one that loads. Collector source: github.com/Nucs/profile-analytics -->
+<img src="https://func-nucsviews.azurewebsites.net/api/px?slug=profile" width="1" height="1" alt="" />
 
 <br/><br/>
 
