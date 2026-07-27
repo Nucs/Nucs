@@ -36,8 +36,12 @@
      the view: if the collector is cold or down, a transparent pixel that fails to load is
      indistinguishable from one that loads.
      The repo= parameter scopes the count, so the same card can be embedded in other repositories
-     and still be reported separately. Collector source: github.com/Nucs/OssAnalytics -->
-<img src="https://func-nucsviews.azurewebsites.net/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
+     and still be reported separately. Collector source: github.com/Nucs/OssAnalytics
+
+     Migrated from Azure Functions to Cloudflare Workers on 2026-07-27. The count carried over via
+     base_count, so the badge did not reset. The old collector at func-nucsviews.azurewebsites.net
+     is still deployed and still answers 200, but nothing points at it any more. -->
+<img src="https://ossanalytics.nucs.workers.dev/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
 
 <br/><br/>
 
