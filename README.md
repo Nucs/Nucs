@@ -24,7 +24,7 @@
 <a href="https://github.com/Nucs?tab=followers">
   <img src="https://img.shields.io/github/followers/nucs?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e&color=6366f1" />
 </a>
-<img src="assets/profile-views.svg" alt="Profile Views" />
+<img src="https://osscdn.nucs.workers.dev/nucs-profile-views-XXOmyUNGPe.svg" alt="Profile Views" />
 <a href="mailto:elibelash@gmail.com">
   <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
 </a>
