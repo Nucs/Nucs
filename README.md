@@ -29,22 +29,6 @@
   <img src="https://img.shields.io/badge/Email-elibelash%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
 </a>
 
-<!-- Profile-views counter, self-hosted (replaces komarev.com/ghpvc).
-     The visible number above is the COMMITTED assets/profile-views.svg, refreshed by
-     .github/workflows/refresh-views.yml, so GitHub serves it and it cannot fail to render -- the
-     same reasoning as the static language card. This 1x1 transparent pixel is what actually counts
-     the view: if the collector is cold or down, a transparent pixel that fails to load is
-     indistinguishable from one that loads.
-     The repo= parameter scopes the count, so the same card can be embedded in other repositories
-     and still be reported separately. Collector source: github.com/Nucs/OssAnalytics
-
-     Migrated from Azure Functions to Cloudflare Workers on 2026-07-27. The count carried over via
-     base_count, so the badge did not reset. The old collector at func-nucsviews.azurewebsites.net
-     is still deployed and still answers 200, but nothing points at it any more.
-     osscdn.nucs.workers.dev is the canonical host; ossanalytics.nucs.workers.dev is the same
-     service under a second name and also still answers, so either URL keeps working. -->
-<img src="https://osscdn.nucs.workers.dev/api/px?repo=Nucs/Nucs&slug=profile" width="1" height="1" alt="" />
-
 <br/><br/>
 
 *That one whom sits in the temple os once is like he sat on a lifetime of software and hardware.*<br>
