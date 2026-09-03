@@ -130,43 +130,43 @@
           data-testid="lang-progress"
           x="0.0"
           y="0"
-          width="137.34"
+          width="136.29"
           height="8"
-          fill="#178600"
+          fill="#7355dd"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="137.34"
+          x="136.29"
           y="0"
-          width="106.12"
+          width="107.03"
           height="8"
           fill="#f34b7d"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="243.46"
+          x="243.32"
           y="0"
-          width="11.74"
+          width="11.75"
           height="8"
           fill="#012456"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.2"
+          x="245.07"
           y="0"
-          width="11.44"
+          width="11.43"
           height="8"
           fill="#555555"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="246.64"
+          x="246.5"
           y="0"
-          width="10.55"
+          width="10.72"
           height="8"
           fill="#3572A5"
         />
@@ -174,15 +174,15 @@
 
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#178600" />
+      <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 54.94%
+        C# 54.52%
       </text>
     </g>
   </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 42.45%
+        C++ 42.81%
       </text>
     </g>
   </g><g transform="translate(0, 50)">    <g class="stagger" style="animation-delay: 750ms">
@@ -194,13 +194,13 @@
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.58%
+        C 0.57%
       </text>
     </g>
   </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 0.22%
+        Python 0.29%
       </text>
     </g>
   </g></g>
@@ -209,6 +209,6 @@
     </svg>
 
         </g>
-        <!-- refreshed 2026-08-06 from the GitHub GraphQL API -->
+        <!-- refreshed 2026-09-03 from the GitHub GraphQL API -->
       </svg>
     
