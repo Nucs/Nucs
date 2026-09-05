@@ -15,7 +15,7 @@
 <tr>
 <td align="center"><img src="https://img.shields.io/badge/8.2M+-NuGet_Downloads-004880?style=for-the-badge&logo=nuget&logoColor=white"/></td>
 <td align="center"><img src="https://img.shields.io/badge/6K+-Stars_Contributed-gold?style=for-the-badge&logo=github&logoColor=white"/></td>
-<td align="center"><img src="https://img.shields.io/badge/820+-Commits_to_OSS-F05032?style=for-the-badge&logo=git&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/3.9K+-Commits_to_OSS-F05032?style=for-the-badge&logo=git&logoColor=white"/></td>
 </tr>
 </table>
 
@@ -54,7 +54,6 @@
 | **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 83 &nbsp; 📦 71K | Config management for .NET — nested objects, dictionaries, zero boilerplate. |
 | **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 36 &nbsp; 📦 1.2K | Windows CLI for font management — install, uninstall, list fonts programmatically. |
 | **[Agentmaster](https://github.com/Nucs/Agentmaster)** | ⭐ 1 | A Windows Terminal fork to own, persist and manage multiple AI coding sessions (Claude / Codex). Focus on the fun stuff, let me do the hard stuff. |
-| **[utf8clip](https://github.com/Nucs/utf8clip)** | ⭐ 0 | Replacement for clip.exe for cross-platform support for both read from/write to clipboard and uses UTF-8 encoding. |
 | **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional in-memory state machines in C# — no classes or enums, clean workflow logic. |
 | **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
