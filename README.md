@@ -57,6 +57,7 @@
 | **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional in-memory state machines in C# — no classes or enums, clean workflow logic. |
 | **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
+| **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | ⭐ 0 | Technical analysis for quant trading in .NET — 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
 | **[Regen](https://github.com/Nucs/Regen)** | ⭐ 25 | In-code templating engine — a T4 replacement with intuitive regen-lang syntax. |
 
 <br/>
