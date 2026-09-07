@@ -17,7 +17,7 @@ It shells out to ``gh api graphql``, which automatically uses GH_TOKEN / GITHUB_
 
 Configuration (all optional, via env vars):
     LANGS_LOGIN    GitHub user            (default: nucs)
-    LANGS_EXCLUDE  comma-separated repos  (default: ML.NET.Api)
+    LANGS_EXCLUDE  comma-separated repos  (default: ML.NET.Api,Agentmaster)
     LANGS_TITLE    card title             (default: "Languages - Present")
     LANGS_OUT      output path            (default: assets/langs-live.svg)
     LANGS_COUNT    number of languages    (default: 5)
@@ -30,7 +30,12 @@ import subprocess
 import sys
 
 LOGIN = os.environ.get("LANGS_LOGIN", "nucs")
-EXCLUDE = {s.strip() for s in os.environ.get("LANGS_EXCLUDE", "ML.NET.Api").split(",") if s.strip()}
+# Agentmaster is a fork of Microsoft's Windows Terminal - a ~19 MB C++ codebase that is
+# almost entirely upstream code, not ours. GitHub does not flag it as a fork (isFork:false),
+# so the query includes it and, uncorrected, all of Windows Terminal's C++ counts as ours
+# and C++ dominates the card. ML.NET.Api is likewise a vendored/generated project. Exclude
+# both so the card reflects languages actually authored here.
+EXCLUDE = {s.strip() for s in os.environ.get("LANGS_EXCLUDE", "ML.NET.Api,Agentmaster").split(",") if s.strip()}
 TITLE = os.environ.get("LANGS_TITLE", "Languages · Present")  # · = middle dot
 OUT = os.environ.get("LANGS_OUT", "assets/langs-live.svg")
 LANGS_COUNT = int(os.environ.get("LANGS_COUNT", "5"))
