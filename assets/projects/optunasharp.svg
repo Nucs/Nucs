@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="OS — optunasharp">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#9B37C4"/>
+      <stop offset="1" stop-color="#4A1568"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="128" height="128" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="128" height="128" fill="url(#bg)"/>
+    <ellipse cx="64" cy="4" rx="86" ry="52" fill="url(#sheen)"/>
+  </g>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+  <path d="M89 724Q89 948 156 1100Q206 1212 292.5 1301.0Q379 1390 482 1433Q619 1491 798 1491Q1122 1491 1316.5 1290.0Q1511 1089 1511 731Q1511 376 1318.0 175.5Q1125 -25 802 -25Q475 -25 282.0 174.5Q89 374 89 724ZM394 734Q394 485 509.0 356.5Q624 228 801 228Q978 228 1091.5 355.5Q1205 483 1205 738Q1205 990 1094.5 1114.0Q984 1238 801 1238Q618 1238 506.0 1112.5Q394 987 394 734ZM1667 477 1955 505Q1981 360 2060.5 292.0Q2140 224 2275 224Q2418 224 2490.5 284.5Q2563 345 2563 426Q2563 478 2532.5 514.5Q2502 551 2426 578Q2374 596 2189 642Q1951 701 1855 787Q1720 908 1720 1082Q1720 1194 1783.5 1291.5Q1847 1389 1966.5 1440.0Q2086 1491 2255 1491Q2531 1491 2670.5 1370.0Q2810 1249 2817 1047L2521 1034Q2502 1147 2439.5 1196.5Q2377 1246 2252 1246Q2123 1246 2050 1193Q2003 1159 2003 1102Q2003 1050 2047 1013Q2103 966 2319.0 915.0Q2535 864 2638.5 809.5Q2742 755 2800.5 660.5Q2859 566 2859 427Q2859 301 2789.0 191.0Q2719 81 2591.0 27.5Q2463 -26 2272 -26Q1994 -26 1845.0 102.5Q1696 231 1667 477Z" transform="translate(12.92,89.39) scale(0.03466,-0.03466)" fill="#FFFFFF"/>
+</svg>
