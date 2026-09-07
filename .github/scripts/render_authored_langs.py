@@ -39,8 +39,16 @@ import render_langs  # reuse build_svg (same card layout) and its COLOR_OVERRIDE
 
 LOGIN = os.environ.get("LANGS_LOGIN", "Nucs")
 OUT = os.environ.get("LANGS_OUT", "assets/langs-live.svg")
+TITLE = os.environ.get("LANGS_TITLE", "Languages · Present")  # all-time card header
 CACHE_PATH = os.environ.get("LANGS_CACHE", "assets/.langs-cache.json")
 COUNT = int(os.environ.get("LANGS_COUNT", "5"))
+DATES_CACHE = os.environ.get("LANGS_DATES", "assets/.langs-dates.json")
+# Historical "era" cards, drawn by the same authored / net-lines method, split by each
+# commit's AUTHOR-date year (inclusive): (card title, output path, first year, last year).
+ERAS = [
+    ("Languages · 2012-2020", "assets/era-2012-2020.svg", 2012, 2020),
+    ("Languages · 2021-2025", "assets/era-2021-2025.svg", 2021, 2025),
+]
 # Repos to skip entirely (owner/name, case-insensitive). Default excludes claude-dotdir:
 # the user's private .claude dotfiles repo, whose committed JavaScript is bundled tooling,
 # not authored code (~98% of the card's JS otherwise). Override/extend via LANGS_EXCLUDE_REPOS.
@@ -164,14 +172,20 @@ def enumerate_repos():
     return {r for r in repos if r.lower() not in EXCLUDE_REPOS}
 
 
-def authored_shas(repo):
-    """All commit shas in `repo` authored by LOGIN, across every branch (deduped)."""
-    shas = set()
+def authored_commits(repo):
+    """{sha: author_date_iso} for commits in `repo` authored by LOGIN, across every branch.
+    The author date comes free in the commit-list response (no extra request)."""
+    out = {}
     for br in rest_all("/repos/%s/branches" % repo, {"per_page": 100}):
         name = br["name"]
         for c in rest_all("/repos/%s/commits" % repo, {"author": LOGIN, "sha": name, "per_page": 100}):
-            shas.add(c["sha"])
-    return shas
+            out[c["sha"]] = c["commit"]["author"]["date"]
+    return out
+
+
+def authored_shas(repo):
+    """Just the deduped sha set (kept for callers that don't need dates)."""
+    return set(authored_commits(repo))
 
 
 def commit_langs(repo, sha):
@@ -253,6 +267,26 @@ LANG_COLORS.update({
 })
 
 
+def render_card(cache, shas, title, out):
+    """Aggregate NET lines per language over `shas` and write an SVG card to `out`."""
+    net = {}
+    for s in shas:
+        for lang, (a, d) in cache.get(s, {}).items():
+            net[lang] = net.get(lang, 0) + a - d
+    net = {k: v for k, v in net.items() if v > 0}
+    if not net:
+        print("  no authored data for %s; leaving it unchanged" % out, file=sys.stderr)
+        return
+    total = sum(net.values())
+    top = sorted(net.items(), key=lambda kv: kv[1], reverse=True)[:COUNT]
+    colors = {n: LANG_COLORS.get(n, "#858585") for n, _ in top}
+    render_langs.TITLE = title  # build_svg reads render_langs.TITLE
+    os.makedirs(os.path.dirname(out) or ".", exist_ok=True)
+    with open(out, "w", encoding="utf-8", newline="\n") as f:
+        f.write(render_langs.build_svg(top, colors, total))
+    print("Wrote %s: %s" % (out, ", ".join("%s %.2f%%" % (n, v / total * 100) for n, v in top)), file=sys.stderr)
+
+
 def main():
     print("Enumerating repos for %s ..." % LOGIN, file=sys.stderr)
     repos = sorted(enumerate_repos())
@@ -263,15 +297,18 @@ def main():
     if os.path.exists(CACHE_PATH):
         cache = json.load(open(CACHE_PATH, encoding="utf-8"))
 
-    # collect every authored sha across all repos/branches, deduped globally
-    sha_repo = {}
+    # collect every authored sha (with its author-date) across all repos/branches, deduped
+    sha_repo, sha_date = {}, {}
     for r in repos:
         try:
-            for s in authored_shas(r):
-                sha_repo.setdefault(s, r)  # first repo that has this sha
+            for s, dt in authored_commits(r).items():
+                sha_repo.setdefault(s, r)   # first repo that has this sha
+                sha_date.setdefault(s, dt)
         except Exception as e:
             print("  skip %s (%s)" % (r, e), file=sys.stderr)
     print("  %d unique authored commits" % len(sha_repo), file=sys.stderr)
+    os.makedirs(os.path.dirname(DATES_CACHE) or ".", exist_ok=True)
+    json.dump(sha_date, open(DATES_CACHE, "w", encoding="utf-8"))
 
     missing = [(s, r) for s, r in sha_repo.items() if s not in cache]
     print("  %d new commits to fetch (%d cached)" % (len(missing), len(sha_repo) - len(missing)), file=sys.stderr)
@@ -295,27 +332,11 @@ def main():
                 json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"))
     json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"))
 
-    # aggregate NET lines per language over the deduped shas
-    net = {}
-    for s in sha_repo:
-        for lang, (a, d) in cache.get(s, {}).items():
-            net[lang] = net.get(lang, 0) + a - d
-    net = {k: v for k, v in net.items() if v > 0}
-    if not net:
-        print("No authored language data; leaving existing card.", file=sys.stderr)
-        return 1
-
-    total = sum(net.values())
-    top = sorted(net.items(), key=lambda kv: kv[1], reverse=True)[:COUNT]
-    colors = {name: LANG_COLORS.get(name, "#858585") for name, _ in top}
-
-    svg = render_langs.build_svg(top, colors, total)
-    os.makedirs(os.path.dirname(OUT) or ".", exist_ok=True)
-    with open(OUT, "w", encoding="utf-8", newline="\n") as f:
-        f.write(svg)
-    print("Wrote %s" % OUT, file=sys.stderr)
-    for name, v in top:
-        print("  %-16s %6.2f%%  (net %d lines)" % (name, v / total * 100, v), file=sys.stderr)
+    render_card(cache, sha_repo.keys(), TITLE, OUT)  # all-time "Present" card
+    for title, out, y0, y1 in ERAS:      # historical era cards, split by author-date year
+        subset = [s for s in sha_repo if y0 <= int(sha_date.get(s, "9999")[:4]) <= y1]
+        print("  era %s: %d commits" % (title, len(subset)), file=sys.stderr)
+        render_card(cache, subset, title, out)
     return 0
 
 
