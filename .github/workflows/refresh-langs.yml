@@ -3,24 +3,25 @@ name: Refresh language card
 # Keeps assets/langs-live.svg (the "Languages - Present" card in README.md) up to date
 # WITHOUT the README ever depending on a live third-party service at view time.
 #
-# How the cadence works (per request):
-#   * The job runs DAILY, but only regenerates when the committed card is >= 28 days old
-#     -> in practice it refreshes about once a MONTH.
-#   * A successful run commits the new card, which resets the "age" clock, so it then goes
-#     quiet for ~a month.
-#   * A failed run (e.g. GitHub API hiccup) commits nothing, so the card stays >= 28 days
-#     old and the NEXT day's run retries -- i.e. "keep trying daily until one succeeds".
+# What it measures: languages by the code the USER ACTUALLY AUTHORED - NET lines
+# (additions - deletions) in the user's own commits, deduped by commit hash across ALL
+# branches, over every repo the user owns (incl. forks and private) PLUS repos they
+# contributed to but do not own (org repos, upstreams). Rendered by
+# .github/scripts/render_authored_langs.py (see that file for the full method).
 #
-# The card is rendered by .github/scripts/render_langs.py directly from the GitHub GraphQL
-# API (no external render service), so both build time and view time are self-contained.
+# Cadence: runs DAILY but only regenerates when the committed card is >= 28 days old
+# (~monthly). A successful run commits the new card and resets the clock; a failed/skipped
+# run commits nothing, so the next day retries.
 #
-# Repo scope: the card counts languages across the user's OWN non-fork repos, PUBLIC AND
-# PRIVATE. Private repos are only visible to a token that can read them, and the default
-# `github.token` cannot -- so this workflow authenticates `gh` with the LANGS_PAT secret
-# (a Personal Access Token with read access to the user's repos). If LANGS_PAT is absent the
-# render step SKIPS, rather than silently regenerating a public-only card and overwriting the
-# committed one. Create it once:  gh secret set LANGS_PAT   (fine-grained: Contents+Metadata
-# read on all repos, or a classic PAT with the `repo` scope).
+# Auth (LANGS_PAT): the collector reads the user's private/org repos, which the default
+# github.token cannot see -- so it authenticates with the LANGS_PAT secret (a PAT with repo
+# read). If LANGS_PAT is absent the render step SKIPS rather than producing an undercounted
+# card. Create it once:  gh secret set LANGS_PAT   (fine-grained: Contents+Metadata read on
+# all repos, or a classic PAT with the `repo` scope).
+#
+# Cost/cache: the first crawl fetches every one of the user's commits' file stats (can be
+# thousands of API calls / several minutes); results are cached (sha -> per-language
+# add/del) via actions/cache, so later runs only fetch commits they have not seen.
 
 on:
   schedule:
@@ -42,6 +43,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
     steps:
       - name: Checkout (full history, so the staleness check can read the card's last commit date)
         uses: actions/checkout@v4
@@ -75,19 +77,26 @@ jobs:
         with:
           python-version: "3.x"
 
+      - name: Restore per-commit stats cache
+        if: steps.due.outputs.due == 'true'
+        uses: actions/cache@v4
+        with:
+          path: assets/.langs-cache.json
+          key: langs-cache-${{ github.run_id }}
+          restore-keys: langs-cache-
+
       - name: Render the language card
         if: steps.due.outputs.due == 'true'
         env:
-          # PAT with private-repo read, so the card includes the user's private repos.
-          # The default github.token can only see public repos, which would regenerate a
-          # public-only card and overwrite the committed one.
+          # PAT with repo read, so the collector can see the user's private and org repos.
+          # The default github.token cannot, and would undercount to public repos only.
           GH_TOKEN: ${{ secrets.LANGS_PAT }}
         run: |
           if [ -z "${GH_TOKEN}" ]; then
-            echo "::warning title=LANGS_PAT not set::Add a LANGS_PAT secret (a PAT with read access to your repos) so private repos are counted; skipping this run so the committed card is not overwritten with a public-only version."
+            echo "::warning title=LANGS_PAT not set::Add a LANGS_PAT secret (a PAT with read access to your repos) so private/org repos are counted; skipping so the committed card is not overwritten."
             exit 0
           fi
-          python .github/scripts/render_langs.py
+          python .github/scripts/render_authored_langs.py
 
       - name: Commit if the card changed
         if: steps.due.outputs.due == 'true'

@@ -1,0 +1,4 @@
+# Incremental per-commit stats cache for the authored-languages card.
+# Regenerated on demand and cached in CI via actions/cache; not tracked in git.
+# See .github/scripts/render_authored_langs.py
+assets/.langs-cache.json
