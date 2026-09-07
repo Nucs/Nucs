@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="AM — agentmaster">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2E2E44"/>
+      <stop offset="1" stop-color="#0F0F18"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="128" height="128" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="128" height="128" fill="url(#bg)"/>
+    <ellipse cx="64" cy="4" rx="86" ry="52" fill="url(#sheen)"/>
+  </g>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+  <rect x="2" y="2" width="124" height="124" rx="28" fill="none" stroke="#6366F1" stroke-opacity="0.55" stroke-width="2"/>
+  <path d="M1471 0H1149L1021 333H435L314 0H0L571 1466H884ZM926 580 724 1124 526 580ZM1624 0V1466H2067L2333 466L2596 1466H3040V0H2765V1154L2474 0H2189L1899 1154V0Z" transform="translate(16.00,87.15) scale(0.03158,-0.03158)" fill="#E0E7FF"/>
+</svg>
