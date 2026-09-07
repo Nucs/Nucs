@@ -13,6 +13,14 @@ name: Refresh language card
 #
 # The card is rendered by .github/scripts/render_langs.py directly from the GitHub GraphQL
 # API (no external render service), so both build time and view time are self-contained.
+#
+# Repo scope: the card counts languages across the user's OWN non-fork repos, PUBLIC AND
+# PRIVATE. Private repos are only visible to a token that can read them, and the default
+# `github.token` cannot -- so this workflow authenticates `gh` with the LANGS_PAT secret
+# (a Personal Access Token with read access to the user's repos). If LANGS_PAT is absent the
+# render step SKIPS, rather than silently regenerating a public-only card and overwriting the
+# committed one. Create it once:  gh secret set LANGS_PAT   (fine-grained: Contents+Metadata
+# read on all repos, or a classic PAT with the `repo` scope).
 
 on:
   schedule:
@@ -70,8 +78,16 @@ jobs:
       - name: Render the language card
         if: steps.due.outputs.due == 'true'
         env:
-          GH_TOKEN: ${{ github.token }}   # used by `gh api graphql` inside the script
-        run: python .github/scripts/render_langs.py
+          # PAT with private-repo read, so the card includes the user's private repos.
+          # The default github.token can only see public repos, which would regenerate a
+          # public-only card and overwrite the committed one.
+          GH_TOKEN: ${{ secrets.LANGS_PAT }}
+        run: |
+          if [ -z "${GH_TOKEN}" ]; then
+            echo "::warning title=LANGS_PAT not set::Add a LANGS_PAT secret (a PAT with read access to your repos) so private repos are counted; skipping this run so the committed card is not overwritten with a public-only version."
+            exit 0
+          fi
+          python .github/scripts/render_langs.py
 
       - name: Commit if the card changed
         if: steps.due.outputs.due == 'true'
