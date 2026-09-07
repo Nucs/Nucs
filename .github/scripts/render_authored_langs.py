@@ -15,8 +15,10 @@ owns, authorship-blind), this measures languages by the code the user actually a
 Per-commit file stats are cached in assets/.langs-cache.json (sha -> {lang: [add, del]}),
 so the first run is expensive but every later run only fetches commits it has not seen.
 
-Auth: GH_TOKEN/GITHUB_TOKEN if set (CI), else `gh auth token` (local keyring). The token
-must be able to read the user's private/org repos for those to be counted.
+Run this LOCALLY only (CI is intentionally disabled - no refresh workflow). It authenticates
+with `gh auth token` (your keyring login), or GH_TOKEN/GITHUB_TOKEN if set; the token must be
+able to read your private/org repos for those to be counted. Regenerate and commit the card
+(assets/langs-live.svg) whenever you want it refreshed.
 
 The SVG is drawn by render_langs.build_svg (identical look); colors come from the canonical
 linguist palette below.
