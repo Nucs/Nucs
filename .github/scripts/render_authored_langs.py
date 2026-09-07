@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the "Languages - Present" card from the user's OWN COMMITS across every repo.
+"""Language cards + stats from the user's OWN COMMITS across every repo.
 
 Unlike render_langs.py (which sums GitHub Linguist byte-sizes of whole repos the user
 owns, authorship-blind), this measures languages by the code the user actually authored:
@@ -12,16 +12,19 @@ owns, authorship-blind), this measures languages by the code the user actually a
   * branches = all branches; commits are deduped by commit hash globally, so a commit that
                lives in both a fork and its upstream (same sha) is counted once
 
-Per-commit file stats are cached in assets/.langs-cache.json (sha -> {lang: [add, del]}),
-so the first run is expensive but every later run only fetches commits it has not seen.
+State is committed so reruns are cheap and incremental:
+  * stats/commits.json  - RAW per-commit data: {sha: {date, repo, langs:{lang:[add,del]}}}
+  * stats/state.json    - run state incl. a DATE WATERMARK (max author-date seen) and the
+                          set of repos already fully scanned
+  * stats/README.md     - generated human-readable stats (method + tables + projects/era)
+On each run only commits newer than the watermark are listed (GitHub `since=`), plus any
+NEW repo is scanned in full; results merge into the raw file. Then the cards + doc + state
+are rewritten. Commit stats/*, assets/*.svg after running.
 
-Run this LOCALLY only (CI is intentionally disabled - no refresh workflow). It authenticates
-with `gh auth token` (your keyring login), or GH_TOKEN/GITHUB_TOKEN if set; the token must be
-able to read your private/org repos for those to be counted. Regenerate and commit the card
-(assets/langs-live.svg) whenever you want it refreshed.
+Run LOCALLY (CI is intentionally disabled). Auth: GH_TOKEN/GITHUB_TOKEN if set, else
+`gh auth token` (keyring). The token must read your private/org repos to count them.
 
-The SVG is drawn by render_langs.build_svg (identical look); colors come from the canonical
-linguist palette below.
+The SVG is drawn by render_langs.build_svg (identical look); colors come from the palette below.
 """
 import datetime
 import http.client
@@ -40,20 +43,26 @@ import render_langs  # reuse build_svg (same card layout) and its COLOR_OVERRIDE
 LOGIN = os.environ.get("LANGS_LOGIN", "Nucs")
 OUT = os.environ.get("LANGS_OUT", "assets/langs-live.svg")
 TITLE = os.environ.get("LANGS_TITLE", "Languages · Present")  # all-time card header
-CACHE_PATH = os.environ.get("LANGS_CACHE", "assets/.langs-cache.json")
 COUNT = int(os.environ.get("LANGS_COUNT", "5"))
-DATES_CACHE = os.environ.get("LANGS_DATES", "assets/.langs-dates.json")
+
+RAW_PATH = os.environ.get("LANGS_RAW", "stats/commits.json")     # sha -> {date, repo, langs}
+STATE_PATH = os.environ.get("LANGS_STATE", "stats/state.json")   # watermark + repos_seen
+DOC_PATH = os.environ.get("LANGS_DOC", "stats/README.md")        # generated stats doc
+LEGACY_LANGS = os.environ.get("LANGS_CACHE", "")                 # optional migration seed (sha->langs)
+SINCE_BUFFER_DAYS = int(os.environ.get("LANGS_SINCE_BUFFER_DAYS", "7"))
+
 # Historical "era" cards, drawn by the same authored / net-lines method, split by each
 # commit's AUTHOR-date year (inclusive): (card title, output path, first year, last year).
 ERAS = [
     ("Languages · 2012-2020", "assets/era-2012-2020.svg", 2012, 2020),
     ("Languages · 2021-2025", "assets/era-2021-2025.svg", 2021, 2025),
 ]
-# Repos to skip entirely (owner/name, case-insensitive). Default excludes claude-dotdir:
-# the user's private .claude dotfiles repo, whose committed JavaScript is bundled tooling,
-# not authored code (~98% of the card's JS otherwise). Override/extend via LANGS_EXCLUDE_REPOS.
+# Repos excluded FROM THE CARDS (owner/name, case-insensitive). Default excludes claude-dotdir:
+# the user's private .claude dotfiles repo, whose committed JavaScript is bundled tooling, not
+# authored code (~98% of the card's JS otherwise). They still appear in the raw data and the
+# projects-by-era list (marked). Override/extend via LANGS_EXCLUDE_REPOS.
 EXCLUDE_REPOS = {s.strip().lower() for s in os.environ.get("LANGS_EXCLUDE_REPOS", "Nucs/claude-dotdir").split(",") if s.strip()}
-WORKERS = int(os.environ.get("LANGS_WORKERS", "8"))
+WORKERS = int(os.environ.get("LANGS_WORKERS", "6"))
 
 API = "https://api.github.com"
 
@@ -135,7 +144,8 @@ def graphql(query, variables):
 
 
 def enumerate_repos():
-    """Return a set of 'owner/name' the user owns (incl forks/private) or committed to."""
+    """All 'owner/name' the user owns (incl forks/private) or committed to. Exclusions are
+    applied at card time, not here, so excluded repos still show in the raw data + projects list."""
     repos, created = set(), None
     after = None
     while True:
@@ -169,27 +179,45 @@ def enumerate_repos():
         for c in col:
             repos.add(c["repository"]["nameWithOwner"])
 
-    return {r for r in repos if r.lower() not in EXCLUDE_REPOS}
+    return repos
 
 
-def authored_commits(repo):
+def authored_commits(repo, since=None):
     """{sha: author_date_iso} for commits in `repo` authored by LOGIN, across every branch.
-    The author date comes free in the commit-list response (no extra request)."""
+    `since` (ISO) limits to commits after that time (incremental). Author date is free in
+    the list response (no extra request)."""
     out = {}
     for br in rest_all("/repos/%s/branches" % repo, {"per_page": 100}):
-        name = br["name"]
-        for c in rest_all("/repos/%s/commits" % repo, {"author": LOGIN, "sha": name, "per_page": 100}):
+        params = {"author": LOGIN, "sha": br["name"], "per_page": 100}
+        if since:
+            params["since"] = since
+        for c in rest_all("/repos/%s/commits" % repo, params):
             out[c["sha"]] = c["commit"]["author"]["date"]
     return out
 
 
-def authored_shas(repo):
-    """Just the deduped sha set (kept for callers that don't need dates)."""
-    return set(authored_commits(repo))
+_LEGACY = None
+
+
+def _legacy_langs():
+    """Optional one-time migration seed: a plain {sha: langs} cache to avoid re-fetching."""
+    global _LEGACY
+    if _LEGACY is None:
+        _LEGACY = {}
+        if LEGACY_LANGS and os.path.exists(LEGACY_LANGS):
+            try:
+                _LEGACY = json.load(open(LEGACY_LANGS, encoding="utf-8"))
+                print("  seeded %d langs from legacy cache %s" % (len(_LEGACY), LEGACY_LANGS), file=sys.stderr)
+            except Exception:
+                _LEGACY = {}
+    return _LEGACY
 
 
 def commit_langs(repo, sha):
-    """{lang: [add, del]} for one commit, from its per-file stats (cached upstream)."""
+    """{lang: [add, del]} for one commit, from its per-file stats."""
+    leg = _legacy_langs()
+    if sha in leg:
+        return leg[sha]
     data, _ = _req("%s/repos/%s/commits/%s" % (API, repo, sha))
     out = {}
     if not data:
@@ -267,13 +295,18 @@ LANG_COLORS.update({
 })
 
 
-def render_card(cache, shas, title, out):
-    """Aggregate NET lines per language over `shas` and write an SVG card to `out`."""
+def _net(raw, shas):
+    """{lang: net_lines>0} aggregated over `shas` from the raw store."""
     net = {}
     for s in shas:
-        for lang, (a, d) in cache.get(s, {}).items():
+        for lang, (a, d) in raw[s]["langs"].items():
             net[lang] = net.get(lang, 0) + a - d
-    net = {k: v for k, v in net.items() if v > 0}
+    return {k: v for k, v in net.items() if v > 0}
+
+
+def render_card(raw, shas, title, out):
+    """Aggregate NET lines per language over `shas` and write an SVG card to `out`."""
+    net = _net(raw, shas)
     if not net:
         print("  no authored data for %s; leaving it unchanged" % out, file=sys.stderr)
         return
@@ -287,56 +320,150 @@ def render_card(cache, shas, title, out):
     print("Wrote %s: %s" % (out, ", ".join("%s %.2f%%" % (n, v / total * 100) for n, v in top)), file=sys.stderr)
 
 
+def _save_raw(raw):
+    os.makedirs(os.path.dirname(RAW_PATH) or ".", exist_ok=True)
+    # sorted keys + compact => minimal, stable git diffs run-to-run
+    json.dump(raw, open(RAW_PATH, "w", encoding="utf-8"), separators=(",", ":"), sort_keys=True)
+
+
+DOC_ERAS = [("2012-2020", 2012, 2020), ("2021-2025", 2021, 2025), ("2026+", 2026, 3000)]
+
+
+def write_doc(raw):
+    def yr(s):
+        return int(raw[s]["date"][:4])
+    card = [s for s in raw if raw[s]["repo"].lower() not in EXCLUDE_REPOS]
+    windows = [("All-time (Present card)", card),
+               ("2012-2020", [s for s in card if 2012 <= yr(s) <= 2020]),
+               ("2021-2025", [s for s in card if 2021 <= yr(s) <= 2025])]
+    L = []
+    L.append("# Language stats (from authored commits)\n\n")
+    L.append("_Generated %s by `.github/scripts/render_authored_langs.py` from `%s`. Do not edit by hand._\n\n"
+             % (datetime.date.today().isoformat(), RAW_PATH))
+    L.append("## Method\n\n")
+    L.append("- **Metric:** net lines (additions − deletions) in commits **authored by %s** "
+             "(`author=%s`; GitHub maps all your verified emails).\n" % (LOGIN, LOGIN))
+    L.append("- **Scope:** repos you own (incl. forks & private) **plus** repos you contributed to but "
+             "don't own; **all branches**, deduped by commit hash (a commit in both a fork and its "
+             "upstream counts once).\n")
+    L.append("- **Excluded from cards:** %s (still shown in the projects list, marked).\n"
+             % (", ".join(sorted(EXCLUDE_REPOS)) or "none"))
+    L.append("- Vendored/generated/minified/binary paths skipped; docs/config markup skipped unless "
+             "`LANGS_INCLUDE_MARKUP=1`.\n")
+    L.append("- **Raw data:** `%s` (per-commit). **Run state / watermark:** `%s`. Reruns only fetch "
+             "commits newer than the watermark.\n\n" % (RAW_PATH, STATE_PATH))
+    for name, shas in windows:
+        net = _net(raw, shas)
+        tot = sum(net.values()) or 1
+        L.append("## %s — %d commits, %s net lines\n\n" % (name, len(shas), "{:,}".format(sum(net.values()))))
+        L.append("| Language | Net lines | Share |\n|---|--:|--:|\n")
+        for lang, v in sorted(net.items(), key=lambda x: -x[1])[:COUNT]:
+            L.append("| %s | %s | %.2f%% |\n" % (lang, "{:,}".format(v), v / tot * 100))
+        L.append("\n")
+    L.append("## Projects by era\n\n")
+    L.append("_Deduped: each commit is counted once, under the repo it was first found in. "
+             "Repos not owned by you and card-excluded repos are marked._\n\n")
+    for nm, y0, y1 in DOC_ERAS:
+        by = {}
+        for s in raw:
+            if y0 <= yr(s) <= y1:
+                by[raw[s]["repo"]] = by.get(raw[s]["repo"], 0) + 1
+        rows = sorted(by.items(), key=lambda x: -x[1])
+        L.append("### %s — %d projects, %d commits\n\n" % (nm, len(rows), sum(by.values())))
+        for repo, c in rows:
+            tags = []
+            if repo.lower() in EXCLUDE_REPOS:
+                tags.append("excluded from cards")
+            if not repo.lower().startswith(LOGIN.lower() + "/"):
+                tags.append("not owned")
+            suffix = "  _(%s)_" % ", ".join(tags) if tags else ""
+            L.append("- %s (%d)%s\n" % (repo, c, suffix))
+        L.append("\n")
+    L.append("## Regenerate\n\n```sh\npython .github/scripts/render_authored_langs.py\n```\n")
+    os.makedirs(os.path.dirname(DOC_PATH) or ".", exist_ok=True)
+    open(DOC_PATH, "w", encoding="utf-8", newline="\n").write("".join(L))
+    print("Wrote %s" % DOC_PATH, file=sys.stderr)
+
+
 def main():
-    print("Enumerating repos for %s ..." % LOGIN, file=sys.stderr)
+    raw = json.load(open(RAW_PATH, encoding="utf-8")) if os.path.exists(RAW_PATH) else {}
+    state = json.load(open(STATE_PATH, encoding="utf-8")) if os.path.exists(STATE_PATH) else {}
+    watermark = state.get("watermark")
+    repos_seen = set(state.get("repos_seen", []))
+
+    print("Enumerating repos for %s (raw has %d commits; watermark=%s) ..." % (LOGIN, len(raw), watermark), file=sys.stderr)
     repos = sorted(enumerate_repos())
     print("  %d repos" % len(repos), file=sys.stderr)
 
-    # cache: sha -> {lang: [add, del]}
-    cache = {}
-    if os.path.exists(CACHE_PATH):
-        cache = json.load(open(CACHE_PATH, encoding="utf-8"))
-
-    # collect every authored sha (with its author-date) across all repos/branches, deduped
-    sha_repo, sha_date = {}, {}
-    for r in repos:
+    since_param = None
+    if watermark:
         try:
-            for s, dt in authored_commits(r).items():
-                sha_repo.setdefault(s, r)   # first repo that has this sha
-                sha_date.setdefault(s, dt)
+            dt = datetime.datetime.fromisoformat(watermark.replace("Z", "+00:00")) - datetime.timedelta(days=SINCE_BUFFER_DAYS)
+            since_param = dt.strftime("%Y-%m-%dT%H:%M:%SZ")
+        except Exception:
+            since_param = None
+
+    # list authored commits: incremental (since watermark) for repos we've fully scanned,
+    # full scan for repos seen for the first time.
+    new_meta = {}  # sha -> (date, repo)
+    for r in repos:
+        since = since_param if (since_param and r in repos_seen) else None
+        try:
+            for sha, date in authored_commits(r, since).items():
+                if sha not in raw and sha not in new_meta:
+                    new_meta[sha] = (date, r)
         except Exception as e:
             print("  skip %s (%s)" % (r, e), file=sys.stderr)
-    print("  %d unique authored commits" % len(sha_repo), file=sys.stderr)
-    os.makedirs(os.path.dirname(DATES_CACHE) or ".", exist_ok=True)
-    json.dump(sha_date, open(DATES_CACHE, "w", encoding="utf-8"))
-
-    missing = [(s, r) for s, r in sha_repo.items() if s not in cache]
-    print("  %d new commits to fetch (%d cached)" % (len(missing), len(sha_repo) - len(missing)), file=sys.stderr)
+        repos_seen.add(r)
+    print("  %d new commits to fetch" % len(new_meta), file=sys.stderr)
 
     def fetch(item):
-        s, r = item
+        sha, (date, repo) = item
         try:
-            return s, commit_langs(r, s)
-        except Exception as e:  # transient failure -> None so it is NOT cached and retries next run
-            print("  detail failed %s@%s (%s)" % (s[:8], r, e), file=sys.stderr)
-            return s, None
+            return sha, date, repo, commit_langs(repo, sha)
+        except Exception as e:  # transient -> None so it is NOT stored and retries next run
+            print("  detail failed %s@%s (%s)" % (sha[:8], repo, e), file=sys.stderr)
+            return sha, None, None, None
 
+    items = list(new_meta.items())
     done = 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
-        for s, langs in ex.map(fetch, missing):
+        for sha, date, repo, langs in ex.map(fetch, items):
             done += 1
             if langs is not None:
-                cache[s] = langs
+                raw[sha] = {"date": date, "repo": repo, "langs": langs}
             if done % 200 == 0:
-                print("    fetched %d/%d" % (done, len(missing)), file=sys.stderr)
-                json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"))
-    json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"))
+                print("    fetched %d/%d" % (done, len(items)), file=sys.stderr)
+                _save_raw(raw)
+    _save_raw(raw)
 
-    render_card(cache, sha_repo.keys(), TITLE, OUT)  # all-time "Present" card
-    for title, out, y0, y1 in ERAS:      # historical era cards, split by author-date year
-        subset = [s for s in sha_repo if y0 <= int(sha_date.get(s, "9999")[:4]) <= y1]
+    if not raw:
+        print("No authored data; nothing to render.", file=sys.stderr)
+        return 1
+
+    def yr(s):
+        return int(raw[s]["date"][:4])
+    card_shas = [s for s in raw if raw[s]["repo"].lower() not in EXCLUDE_REPOS]
+    render_card(raw, card_shas, TITLE, OUT)  # all-time "Present" card
+    for title, out, y0, y1 in ERAS:
+        subset = [s for s in card_shas if y0 <= yr(s) <= y1]
         print("  era %s: %d commits" % (title, len(subset)), file=sys.stderr)
-        render_card(cache, subset, title, out)
+        render_card(raw, subset, title, out)
+
+    write_doc(raw)
+    watermark = max((raw[s]["date"] for s in raw), default=watermark)
+    state = {
+        "login": LOGIN,
+        "generated_at": datetime.datetime.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ"),
+        "watermark": watermark,          # next run lists commits since this (minus buffer)
+        "since_buffer_days": SINCE_BUFFER_DAYS,
+        "commit_count": len(raw),
+        "excluded_from_cards": sorted(EXCLUDE_REPOS),
+        "repos_seen": sorted(repos_seen),
+    }
+    os.makedirs(os.path.dirname(STATE_PATH) or ".", exist_ok=True)
+    json.dump(state, open(STATE_PATH, "w", encoding="utf-8"), indent=2)
+    print("Done: %d commits, watermark=%s, %d repos seen" % (len(raw), watermark, len(repos_seen)), file=sys.stderr)
     return 0
 
 
