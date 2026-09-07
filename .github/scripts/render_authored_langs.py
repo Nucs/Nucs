@@ -39,8 +39,10 @@ LOGIN = os.environ.get("LANGS_LOGIN", "Nucs")
 OUT = os.environ.get("LANGS_OUT", "assets/langs-live.svg")
 CACHE_PATH = os.environ.get("LANGS_CACHE", "assets/.langs-cache.json")
 COUNT = int(os.environ.get("LANGS_COUNT", "5"))
-# Repos to skip entirely (owner/name, case-insensitive), e.g. giant data/asset mirrors.
-EXCLUDE_REPOS = {s.strip().lower() for s in os.environ.get("LANGS_EXCLUDE_REPOS", "").split(",") if s.strip()}
+# Repos to skip entirely (owner/name, case-insensitive). Default excludes claude-dotdir:
+# the user's private .claude dotfiles repo, whose committed JavaScript is bundled tooling,
+# not authored code (~98% of the card's JS otherwise). Override/extend via LANGS_EXCLUDE_REPOS.
+EXCLUDE_REPOS = {s.strip().lower() for s in os.environ.get("LANGS_EXCLUDE_REPOS", "Nucs/claude-dotdir").split(",") if s.strip()}
 WORKERS = int(os.environ.get("LANGS_WORKERS", "8"))
 
 API = "https://api.github.com"
