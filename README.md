@@ -49,16 +49,16 @@
 
 | Project | Stats | Description |
 |---------|-------|-------------|
-| **[NumSharp](https://github.com/SciSharp/NumSharp)** | ⭐ 1.5K &nbsp; 📦 5.7M &nbsp; 🥇 Author | NumPy for .NET - scientific computing library. Architected core, broadcasting, backend. |
-| **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | ⭐ 3.4K &nbsp; 📦 3.3M &nbsp; 🥉 #3 Contributor | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
-| **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 84 &nbsp; 📦 78K &nbsp; ✍️ Author | Config management for .NET - nested objects, dictionaries, zero boilerplate. |
-| **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | ⭐ 0 &nbsp; 📦 0 &nbsp; ✍️ Author | Technical analysis for quant trading in .NET - 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
-| **[OptunaSharp](https://github.com/SciSharp/OptunaSharp)** | ⭐ 0 &nbsp; 📦 0 &nbsp; ✍️ Author | Optuna for .NET - define-by-run hyperparameter optimization for C#/F# (studies, trials, samplers, pruners), built on NumSharp. |
-| **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 38 &nbsp; 📦 1.4K &nbsp; ✍️ Author | Windows CLI for font management - install, uninstall, list fonts programmatically. |
-| **[Agentmaster](https://github.com/Nucs/Agentmaster)** | ⭐ 1 &nbsp; ✍️ Author | A Windows Terminal fork to own, persist and manage multiple AI coding sessions (Claude / Codex). Focus on the fun stuff, let me do the hard stuff. |
-| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 &nbsp; ✍️ Author | Functional in-memory state machines in C# - no classes or enums, clean workflow logic. |
-| **[Regen](https://github.com/Nucs/Regen)** | ⭐ 25 &nbsp; ✍️ Author | In-code templating engine - a T4 replacement with intuitive regen-lang syntax. |
-| **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 &nbsp; ✍️ Author | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
+| **[NumSharp](https://github.com/SciSharp/NumSharp)** | <sub><span title="GitHub stars">⭐</span> 1.5K &nbsp; <span title="NuGet package downloads">📦</span> 5.7M &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | NumPy for .NET - scientific computing library. Architected core, broadcasting, backend. |
+| **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | <sub><span title="GitHub stars">⭐</span> 3.4K &nbsp; <span title="NuGet package downloads">📦</span> 3.3M &nbsp; <span title="3rd all-time contributor">🥉</span> #3 Contributor</sub> | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
+| **[JsonSettings](https://github.com/Nucs/JsonSettings)** | <sub><span title="GitHub stars">⭐</span> 84 &nbsp; <span title="NuGet package downloads">📦</span> 78K &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | Config management for .NET - nested objects, dictionaries, zero boilerplate. |
+| **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | <sub><span title="GitHub stars">⭐</span> 0 &nbsp; <span title="NuGet package downloads">📦</span> 0 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | Technical analysis for quant trading in .NET - 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
+| **[OptunaSharp](https://github.com/SciSharp/OptunaSharp)** | <sub><span title="GitHub stars">⭐</span> 0 &nbsp; <span title="NuGet package downloads">📦</span> 0 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | Optuna for .NET - define-by-run hyperparameter optimization for C#/F# (studies, trials, samplers, pruners), built on NumSharp. |
+| **[FontRegister](https://github.com/Nucs/FontRegister)** | <sub><span title="GitHub stars">⭐</span> 38 &nbsp; <span title="NuGet package downloads">📦</span> 1.4K &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | Windows CLI for font management - install, uninstall, list fonts programmatically. |
+| **[Agentmaster](https://github.com/Nucs/Agentmaster)** | <sub><span title="GitHub stars">⭐</span> 1 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | A Windows Terminal fork to own, persist and manage multiple AI coding sessions (Claude / Codex). Focus on the fun stuff, let me do the hard stuff. |
+| **[Chaining](https://github.com/Nucs/Chaining)** | <sub><span title="GitHub stars">⭐</span> 2 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | Functional in-memory state machines in C# - no classes or enums, clean workflow logic. |
+| **[Regen](https://github.com/Nucs/Regen)** | <sub><span title="GitHub stars">⭐</span> 25 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | In-code templating engine - a T4 replacement with intuitive regen-lang syntax. |
+| **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | <sub><span title="GitHub stars">⭐</span> 94 &nbsp; <span title="Project author and maintainer">✍️</span> Author</sub> | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
 
 <br/>
 
