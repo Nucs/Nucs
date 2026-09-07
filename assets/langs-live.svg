@@ -130,77 +130,77 @@
           data-testid="lang-progress"
           x="0.0"
           y="0"
-          width="136.29"
+          width="67.6"
+          height="8"
+          fill="#3572A5"
+        />
+        <rect
+          mask="url(#rect-mask)"
+          data-testid="lang-progress"
+          x="67.6"
+          y="0"
+          width="66.19"
           height="8"
           fill="#7355dd"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="136.29"
+          x="133.79"
           y="0"
-          width="107.03"
+          width="45.49"
           height="8"
           fill="#f34b7d"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="243.32"
+          x="179.28"
           y="0"
-          width="11.75"
+          width="33.84"
           height="8"
-          fill="#012456"
+          fill="#f1e05a"
         />
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="245.07"
+          x="213.12"
           y="0"
-          width="11.43"
+          width="10.53"
           height="8"
           fill="#555555"
-        />
-        <rect
-          mask="url(#rect-mask)"
-          data-testid="lang-progress"
-          x="246.5"
-          y="0"
-          width="10.72"
-          height="8"
-          fill="#3572A5"
         />
 
 
     <g transform="translate(0, 25)">
       <g transform="translate(0, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#7355dd" />
+      <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 54.52%
+        Python 27.04%
       </text>
     </g>
   </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
+      <circle cx="5" cy="6" r="5" fill="#7355dd" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C++ 42.81%
+        C# 26.48%
       </text>
     </g>
   </g><g transform="translate(0, 50)">    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#012456" />
+      <circle cx="5" cy="6" r="5" fill="#f34b7d" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 0.70%
+        C++ 18.20%
       </text>
     </g>
   </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
-      <circle cx="5" cy="6" r="5" fill="#555555" />
+      <circle cx="5" cy="6" r="5" fill="#f1e05a" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C 0.57%
+        JavaScript 13.54%
       </text>
     </g>
   </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#3572A5" />
+      <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 0.29%
+        C 4.21%
       </text>
     </g>
   </g></g>
@@ -209,6 +209,6 @@
     </svg>
 
         </g>
-        <!-- refreshed 2026-09-03 from the GitHub GraphQL API -->
+        <!-- refreshed 2026-09-07 from the GitHub GraphQL API -->
       </svg>
     
