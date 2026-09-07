@@ -49,16 +49,16 @@
 
 | Project | Stats | Description |
 |---------|-------|-------------|
-| **[NumSharp](https://github.com/SciSharp/NumSharp)** | ⭐ 1.5K &nbsp; 📦 5.7M &nbsp; 🥇 Main Contributor | NumPy for .NET — scientific computing library. Architected core, broadcasting, backend. |
+| **[NumSharp](https://github.com/SciSharp/NumSharp)** | ⭐ 1.5K &nbsp; 📦 5.7M &nbsp; 🥇 Main Contributor | NumPy for .NET - scientific computing library. Architected core, broadcasting, backend. |
 | **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | ⭐ 3.4K &nbsp; 📦 3.3M &nbsp; 🥉 #3 Contributor | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
-| **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 84 &nbsp; 📦 78K | Config management for .NET — nested objects, dictionaries, zero boilerplate. |
-| **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 38 &nbsp; 📦 1.4K | Windows CLI for font management — install, uninstall, list fonts programmatically. |
+| **[JsonSettings](https://github.com/Nucs/JsonSettings)** | ⭐ 84 &nbsp; 📦 78K | Config management for .NET - nested objects, dictionaries, zero boilerplate. |
+| **[FontRegister](https://github.com/Nucs/FontRegister)** | ⭐ 38 &nbsp; 📦 1.4K | Windows CLI for font management - install, uninstall, list fonts programmatically. |
 | **[Agentmaster](https://github.com/Nucs/Agentmaster)** | ⭐ 1 | A Windows Terminal fork to own, persist and manage multiple AI coding sessions (Claude / Codex). Focus on the fun stuff, let me do the hard stuff. |
-| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional in-memory state machines in C# — no classes or enums, clean workflow logic. |
+| **[Chaining](https://github.com/Nucs/Chaining)** | ⭐ 2 | Functional in-memory state machines in C# - no classes or enums, clean workflow logic. |
 | **[CodeMinion](https://github.com/SciSharp/CodeMinion)** | ⭐ 35 &nbsp; 🥈 #2 Contributor | Code generation toolkit for SciSharp. Custom regen compiler and templating. |
 | **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | ⭐ 94 | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
-| **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | ⭐ 0 | Technical analysis for quant trading in .NET — 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
-| **[Regen](https://github.com/Nucs/Regen)** | ⭐ 25 | In-code templating engine — a T4 replacement with intuitive regen-lang syntax. |
+| **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | ⭐ 0 | Technical analysis for quant trading in .NET - 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
+| **[Regen](https://github.com/Nucs/Regen)** | ⭐ 25 | In-code templating engine - a T4 replacement with intuitive regen-lang syntax. |
 
 <br/>
 
@@ -68,18 +68,18 @@
 
 <div align="center">
 
-### How I Used to Code — Then vs. Now
+### How I Used to Code - Then vs. Now
 
 <table>
 <tr>
   <td align="center"><img src="assets/era-2012-2020.svg" width="300" alt="Most used languages 2012–2020"/></td>
   <td align="center"><img src="assets/era-2021-2025.svg" width="300" alt="Most used languages 2021–2025"/></td>
-  <td align="center"><img src="assets/langs-live.svg" width="300" alt="Most used languages — live (present)"/></td>
+  <td align="center"><img src="assets/langs-live.svg" width="300" alt="Most used languages - live (present)"/></td>
 </tr>
 <tr>
   <td align="center"><b>Development between 2012–2020</b></td>
   <td align="center"><b>Development between 2021–2025</b></td>
-  <td align="center"><b>Development — Present (Live)</b></td>
+  <td align="center"><b>Development - Present (Live)</b></td>
 </tr>
 </table>
 
