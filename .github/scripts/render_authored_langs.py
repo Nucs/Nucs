@@ -22,11 +22,13 @@ The SVG is drawn by render_langs.build_svg (identical look); colors come from th
 linguist palette below.
 """
 import datetime
+import http.client
 import json
 import os
 import subprocess
 import sys
 import time
+import urllib.error
 import urllib.parse
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor
@@ -61,28 +63,30 @@ HEADERS = {
 
 
 def _req(url):
-    """GET a REST url, returning (json, link_header). Retries on rate-limit/5xx."""
-    for attempt in range(6):
-        req = urllib.request.Request(url, headers=HEADERS)
+    """GET a REST url -> (json, link_header). Retries rate-limit / 5xx / dropped connections;
+    raises if it ultimately fails. Returns (None, "") only for genuinely-absent resources
+    (404/409/410/451) so callers can distinguish 'no data' from 'fetch failed'."""
+    last = None
+    for attempt in range(7):
         try:
+            req = urllib.request.Request(url, headers=HEADERS)
             with urllib.request.urlopen(req, timeout=60) as r:
                 body = r.read()
-                return json.loads(body) if body else None, r.headers.get("Link", "")
+                return (json.loads(body) if body else None), r.headers.get("Link", "")
         except urllib.error.HTTPError as e:
-            if e.code in (403, 429):  # rate limit / abuse
+            if e.code in (403, 429):  # primary / secondary rate limit
                 reset = e.headers.get("X-RateLimit-Reset")
                 wait = max(2, int(reset) - int(time.time()) + 2) if reset else 2 ** attempt
-                wait = min(wait, 300)
-                print("  rate-limited; sleeping %ss" % wait, file=sys.stderr)
-                time.sleep(wait)
-                continue
-            if e.code in (500, 502, 503):
-                time.sleep(2 ** attempt)
-                continue
-            if e.code in (404, 409, 451):  # empty/blocked/DMCA repo -> skip
+                print("  rate-limited; sleeping %ss" % min(wait, 300), file=sys.stderr)
+                time.sleep(min(wait, 300)); last = e; continue
+            if e.code in (500, 502, 503, 504):
+                time.sleep(min(2 ** attempt, 30)); last = e; continue
+            if e.code in (404, 409, 410, 451):  # absent / blocked / DMCA -> genuinely no data
                 return None, ""
             raise
-    return None, ""
+        except (urllib.error.URLError, http.client.HTTPException, ConnectionError, OSError) as e:
+            time.sleep(min(2 ** attempt + 1, 30)); last = e; continue
+    raise RuntimeError("request failed after retries: %s (%s)" % (url, last))
 
 
 def rest_all(path, params):
@@ -108,10 +112,13 @@ def graphql(query, variables):
             with urllib.request.urlopen(req, timeout=60) as r:
                 return json.loads(r.read())
         except urllib.error.HTTPError as e:
-            if e.code in (403, 429, 502, 503):
-                time.sleep(2 ** attempt)
+            if e.code in (403, 429, 500, 502, 503, 504):
+                time.sleep(min(2 ** attempt, 30))
                 continue
             raise
+        except (urllib.error.URLError, http.client.HTTPException, ConnectionError, OSError):
+            time.sleep(min(2 ** attempt + 1, 30))
+            continue
     raise RuntimeError("graphql failed")
 
 
@@ -267,13 +274,18 @@ def main():
 
     def fetch(item):
         s, r = item
-        return s, commit_langs(r, s)
+        try:
+            return s, commit_langs(r, s)
+        except Exception as e:  # transient failure -> None so it is NOT cached and retries next run
+            print("  detail failed %s@%s (%s)" % (s[:8], r, e), file=sys.stderr)
+            return s, None
 
     done = 0
     with ThreadPoolExecutor(max_workers=WORKERS) as ex:
         for s, langs in ex.map(fetch, missing):
-            cache[s] = langs
             done += 1
+            if langs is not None:
+                cache[s] = langs
             if done % 200 == 0:
                 print("    fetched %d/%d" % (done, len(missing)), file=sys.stderr)
                 json.dump(cache, open(CACHE_PATH, "w", encoding="utf-8"))
