@@ -38,6 +38,32 @@ LANGS_COUNT = int(os.environ.get("LANGS_COUNT", "5"))
 WIDTH = 300
 OFFSET_WIDTH = WIDTH - 50  # github-readme-stats: paddingRight = 50 -> bar width 250
 
+# GitHub's GraphQL `language.color` occasionally diverges from the canonical
+# github-linguist palette that github-readme-stats and GitHub's own repo language
+# bars use -- most visibly C#, which the API returns as #7355dd (purple) instead of
+# linguist's #178600 (green). Pin the canonical colors for the languages we care
+# about so the card matches what is seen everywhere else on GitHub; any language not
+# listed here falls back to the color the API reports.
+COLOR_OVERRIDES = {
+    "C#": "#178600",
+    "Python": "#3572A5",
+    "C++": "#f34b7d",
+    "C": "#555555",
+    "JavaScript": "#f1e05a",
+    "TypeScript": "#3178c6",
+    "HTML": "#e34c26",
+    "CSS": "#563d7c",
+    "Shell": "#89e051",
+    "PowerShell": "#012456",
+    "Batchfile": "#C1F12E",
+    "Dockerfile": "#384d54",
+    "Java": "#b07219",
+    "Go": "#00ADD8",
+    "Rust": "#dea584",
+    "Jupyter Notebook": "#DA5B0B",
+    "CMake": "#DA3434",
+}
+
 # Same shape github-readme-stats uses: owner-affiliated, non-fork repos, first 100.
 QUERY = """
 query($login:String!){
@@ -270,7 +296,7 @@ def main():
         for edge in repo["languages"]["edges"]:
             name = edge["node"]["name"]
             sizes[name] = sizes.get(name, 0) + edge["size"]
-            colors.setdefault(name, edge["node"]["color"] or "#858585")
+            colors.setdefault(name, COLOR_OVERRIDES.get(name) or edge["node"]["color"] or "#858585")
 
     if not sizes:
         print("No language data returned; leaving the existing card untouched.", file=sys.stderr)
