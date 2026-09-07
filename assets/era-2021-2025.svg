@@ -20,7 +20,7 @@
             /* Selector detects Firefox */
             .header { font-size: 15.5px; }
           }
-          
+
     @keyframes slideInAnimation {
       from {
         width: 0;
@@ -59,9 +59,9 @@
     .lang-progress{
       animation: growWidthAnimation 0.6s ease-in-out forwards;
     }
-    
 
-          
+
+
       /* Animations */
       @keyframes scaleInAnimation {
         from {
@@ -79,11 +79,11 @@
           opacity: 1;
         }
       }
-    
-          
+
+
         </style>
 
-        
+
 
         <rect
           data-testid="card-bg"
@@ -97,7 +97,7 @@
           stroke-opacity="0"
         />
 
-        
+
       <g
         data-testid="card-title"
         transform="translate(25, 35)"
@@ -108,115 +108,107 @@
         y="0"
         class="header"
         data-testid="header"
-      >Languages &#183; 2021&#8211;2025</text>
+      >Languages &#183; 2021-2025</text>
     </g>
       </g>
-    
+
 
         <g
           data-testid="main-card-body"
           transform="translate(0, 55)"
         >
-          
+
     <svg data-testid="lang-items" x="25">
-      
-  
+
+
       <mask id="rect-mask">
           <rect x="0" y="0" width="250" height="8" fill="white" rx="5"/>
         </mask>
-        
+
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="0"
+          x="0.0"
           y="0"
-          width="200.37"
+          width="90.43"
           height="8"
           fill="#178600"
         />
-      
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="200.37"
+          x="90.43"
           y="0"
-          width="42.85"
+          width="89.64"
           height="8"
           fill="#3572A5"
         />
-      
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="243.22"
+          x="180.07"
           y="0"
-          width="13.85"
+          width="61.98"
           height="8"
-          fill="#89e051"
+          fill="#555555"
         />
-      
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="247.07"
+          x="242.05"
           y="0"
-          width="12.16"
+          width="14.28"
           height="8"
           fill="#e34c26"
         />
-      
         <rect
           mask="url(#rect-mask)"
           data-testid="lang-progress"
-          x="249.23"
+          x="246.33"
           y="0"
-          width="10.77"
+          width="11.56"
           height="8"
-          fill="#012456"
+          fill="#89e051"
         />
-      
-      
+
+
     <g transform="translate(0, 25)">
-      <g transform="translate(0, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
+      <g transform="translate(0, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#178600" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        C# 80.15%
+        C# 36.17%
       </text>
     </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
+  </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
       <circle cx="5" cy="6" r="5" fill="#3572A5" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Python 17.14%
+        Python 35.85%
       </text>
     </g>
-  </g><g transform="translate(0, 50)">
-    <g class="stagger" style="animation-delay: 750ms">
-      <circle cx="5" cy="6" r="5" fill="#89e051" />
+  </g><g transform="translate(0, 50)">    <g class="stagger" style="animation-delay: 750ms">
+      <circle cx="5" cy="6" r="5" fill="#555555" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        Shell 1.54%
+        C 24.79%
       </text>
     </g>
-  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">
-    <g class="stagger" style="animation-delay: 450ms">
+  </g></g><g transform="translate(150, 0)"><g transform="translate(0, 0)">    <g class="stagger" style="animation-delay: 450ms">
       <circle cx="5" cy="6" r="5" fill="#e34c26" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        HTML 0.86%
+        HTML 1.71%
       </text>
     </g>
-  </g><g transform="translate(0, 25)">
-    <g class="stagger" style="animation-delay: 600ms">
-      <circle cx="5" cy="6" r="5" fill="#012456" />
+  </g><g transform="translate(0, 25)">    <g class="stagger" style="animation-delay: 600ms">
+      <circle cx="5" cy="6" r="5" fill="#89e051" />
       <text data-testid="lang-name" x="15" y="10" class='lang-name'>
-        PowerShell 0.31%
+        Shell 0.62%
       </text>
     </g>
   </g></g>
     </g>
-  
+
     </svg>
-  
+
         </g>
+        <!-- refreshed 2026-09-07 from the GitHub GraphQL API -->
       </svg>
     
