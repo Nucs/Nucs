@@ -1,0 +1,210 @@
+<div align="center">
+
+# Hey, I'm Eli Belash <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="28">
+
+
+<br/>
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=22&pause=1000&color=6366F1&center=true&vCenter=true&random=false&width=600&lines=13%2B+years+of+building+impossible+things;.NET+%7C+ML+%7C+Low-Level+Systems+%7C+DevOps;If+it's+hard%2C+I+am+doing+it.)](https://git.io/typing-svg)
+
+<br/>
+
+### Open Source Impact
+
+<table>
+<tr>
+<td align="center"><img src="https://img.shields.io/badge/9.1M+-NuGet_Downloads-004880?style=for-the-badge&logo=nuget&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/5.4K+-Stars_Contributed-gold?style=for-the-badge&logo=github&logoColor=white"/></td>
+<td align="center"><img src="https://img.shields.io/badge/3.9K+-Commits_to_OSS-F05032?style=for-the-badge&logo=git&logoColor=white"/></td>
+</tr>
+</table>
+
+<br/>
+
+<a href="https://github.com/Nucs?tab=followers">
+  <img src="https://img.shields.io/github/followers/nucs?label=Followers&style=for-the-badge&logo=github&logoColor=white&labelColor=1a1a2e&color=6366f1" />
+</a>
+<img src="https://osscdn.nucs.workers.dev/nucs-profile-views-XXOmyUNGPe.svg" alt="Profile Views" />
+<a href="mailto:contact@nucs.dev">
+  <img src="https://img.shields.io/badge/Email-contact%40nucs.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=1a1a2e" />
+</a>
+
+<br/><br/>
+
+*That one whom sits in the temple os once is like he sat on a lifetime of software and hardware.*<br>
+*Blessed he whom is compiled and not relative.*<br>
+*Flashing a light over a shadowy valley; one path unfollows.*<br>
+*Accept the ordeal underneath the sheet of the unreal.*<br>
+*As is the only path to geniusness is breakdown.*<br>
+<br>
+*I dedicate my work to the foretold, forgotten, and the unknown.*
+
+</div>
+
+---
+
+<br/>
+
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="24"> My Open Source Projects
+
+| Project | Stats | Description |
+|---------|-------|-------------|
+| <img src="assets/projects/numsharp.svg" width="32" align="middle" alt="NumSharp logo"> **[NumSharp](https://github.com/SciSharp/NumSharp)** | <sub><span title="GitHub stars">⭐</span>&nbsp;1.5K&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;5.7M<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | NumPy for .NET - scientific computing library. Architected core, broadcasting, backend. |
+| <img src="assets/projects/tensorflow-net.svg" width="32" align="middle" alt="TensorFlow.NET logo"> **[TensorFlow.NET](https://github.com/SciSharp/TensorFlow.NET)** | <sub><span title="GitHub stars">⭐</span>&nbsp;3.4K&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;3.3M<br><span title="3rd all-time maintainer">🥉</span>&nbsp;#3&nbsp;Maintainer</sub> | TensorFlow bindings for .NET. Multithreading, Keras activations, heap corruption fixes. |
+| <img src="assets/projects/optunasharp.png" width="32" align="middle" alt="OptunaSharp logo"> **[OptunaSharp](https://github.com/SciSharp/OptunaSharp)** | <sub><span title="GitHub stars">⭐</span>&nbsp;0&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;0<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Optuna for .NET - define-by-run hyperparameter optimization for C#/F# (studies, trials, samplers, pruners), built on NumSharp. |
+| <img src="assets/projects/jsonsettings.png" width="32" align="middle" alt="JsonSettings logo"> **[JsonSettings](https://github.com/Nucs/JsonSettings)** | <sub><span title="GitHub stars">⭐</span>&nbsp;84&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;78K<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Config management for .NET - nested objects, dictionaries, zero boilerplate. |
+| <img src="assets/projects/betterclipboard.png" width="32" align="middle" alt="BetterClipboard logo"> **[BetterClipboard](https://github.com/Nucs/BetterClipboard)** | <sub><span title="GitHub stars">⭐</span>&nbsp;0<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Drop-in Win+V replacement for Windows - persistent, instantly searchable clipboard history (10K items vs. Windows' 25), encrypted at rest and bound to your PC and account. |
+| <img src="assets/projects/financesharp.png" width="32" align="middle" alt="FinanceSharp logo"> **[FinanceSharp](https://github.com/Nucs/FinanceSharp)** | <sub><span title="GitHub stars">⭐</span>&nbsp;0&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;0<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Technical analysis for quant trading in .NET - 100+ tested indicators, PyTorch-style `Forward` graph, pinned 2D buffers passed to numpy without copying. |
+| <img src="assets/projects/fontregister.png" width="32" align="middle" alt="FontRegister logo"> **[FontRegister](https://github.com/Nucs/FontRegister)** | <sub><span title="GitHub stars">⭐</span>&nbsp;38&nbsp;&nbsp;<span title="NuGet package downloads">📦</span>&nbsp;1.4K<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Windows CLI for font management - install, uninstall, list fonts programmatically. |
+| <img src="assets/projects/agentmaster.svg" width="32" align="middle" alt="Agentmaster logo"> **[Agentmaster](https://github.com/Nucs/Agentmaster)** | <sub><span title="GitHub stars">⭐</span>&nbsp;1<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | A Windows Terminal fork to own, persist and manage multiple AI coding sessions (Claude / Codex). Focus on the fun stuff, let me do the hard stuff. |
+| <img src="assets/projects/chaining.svg" width="32" align="middle" alt="Chaining logo"> **[Chaining](https://github.com/Nucs/Chaining)** | <sub><span title="GitHub stars">⭐</span>&nbsp;2<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | Functional in-memory state machines in C# - no classes or enums, clean workflow logic. |
+| <img src="assets/projects/regen.png" width="32" align="middle" alt="Regen logo"> **[Regen](https://github.com/Nucs/Regen)** | <sub><span title="GitHub stars">⭐</span>&nbsp;25<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | In-code templating engine - a T4 replacement with intuitive regen-lang syntax. |
+| <img src="assets/projects/crypto-ticks.svg" width="32" align="middle" alt="cryptocurrency-ticks-data logo"> **[cryptocurrency-ticks-data](https://github.com/Nucs/cryptocurrency-ticks-data)** | <sub><span title="GitHub stars">⭐</span>&nbsp;94<br><span title="Project author and maintainer">✍️</span>&nbsp;Author</sub> | 590 days of BTC/ETH/LTC/NEO tick-by-tick trade data for ML and backtesting. |
+
+<br/>
+
+---
+
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="24"> Tech Arsenal
+
+<div align="center">
+
+### How I Used to Code - Then vs. Now
+
+<table>
+<tr>
+  <td align="center"><img src="assets/era-2012-2020.svg" width="300" alt="Most used languages 2012–2020"/></td>
+  <td align="center"><img src="assets/era-2021-2025.svg" width="300" alt="Most used languages 2021–2025"/></td>
+  <td align="center"><img src="assets/langs-live.svg" width="300" alt="Most used languages - live (present)"/></td>
+</tr>
+<tr>
+  <td align="center"><b>Development between 2012–2020</b></td>
+  <td align="center"><b>Development between 2021–2025</b></td>
+  <td align="center"><b>Development - Present (Live)</b></td>
+</tr>
+</table>
+
+</div>
+
+<br/>
+
+<div align="center">
+
+### Core Stack
+[![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/dotnet/runtime)
+[![WPF](https://img.shields.io/badge/WPF-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAHlJREFUKJHlkcENwzAMA09FB2E26Sb1CB3Jo6SbcIRs4HziwjBixOg3/EiAeKIAwZ+K2kh6AeUKsP39gZIyoMkw2041bZ09sXofs0CvO4DPo26S3oAv/AK2FvwACVgAIiKVUnLfN97B2uavox9HB6Qj+UzZdh7M5rUDQS8gls8k7tUAAAAASUVORK5CYII=)](https://github.com/dotnet/wpf)
+[![XAML](https://img.shields.io/badge/XAML-0C54C2?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAKVJREFUKJHNkbEVwjAMRA9oUl6Z8rIJTEJKyozACN6AlJS0bOERNII2MEUIz/HLi6l4qDxJ1r8z8HclqZekUt9/sTsA8FI8FK8Hkq27x/kagAZAQ/Ls7s81pFHSWGhxxnz3bwtUSQEAzKzPlo6TZJb1dvNs7jEVEFcAoZpAjqKp4paVTzju/iB5ItkC6AHci5BoZpety+y6zmqEa//IlNJQ9fbzegE4cjim74kRVgAAAABJRU5ErkJggg==)](https://docs.microsoft.com/en-us/dotnet/desktop/wpf/xaml/)
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/python/cpython)
+[![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/microsoft/TypeScript)
+
+### DevOps & Infrastructure
+[![Azure](https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAL5JREFUKJGVkmEVgkAQhGcp4EUgAhGIcBGIQAQjYAMj0EAjaAIjSIPPH3K6LjzU+XVv2Jn3sXemIKCXtAv2ZGaHOOtDmaduwe+AvBU88lbj/AQc/WwVsr61Kwczm37B5C/cgPkV16PGtusWblUwtbyCQVIdvPMH7grmNKP1m9udBwFOQHJ+DQxxF+UQt3kHWjc4hmAH5GplKUlSBvbuvxr3fZSUPWbRZW5ugRFoXMmLwuZHnXyjmZVwktRrqekBxmEErxuEmCEAAAAASUVORK5CYII=)](https://azure.microsoft.com/)
+[![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-0078D7?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAALNJREFUKJG9kUERwkAMRd8yCMABlVAJdUBRAA5qAQcgAQlIqIQ6oA4oCh4HMkzpdIee+Jckk7y/kw1kpJ7UItfPQZV6Vx9q/Wt4ozYBTHUezZXqLkVxAZqJ1xPogBbogfJrJnYZ1Dbyem636H1ExHbB3l/g6heQ0//BNbAHCrUC+pRSvwhMKd0A1CtwUAEG3qcYx23WRe1mjj+nyxTcxE1P6jXyqY65V0u1HNV1mPTxDwC8AKxI83lJoUaJAAAAAElFTkSuQmCC)](https://azure.microsoft.com/en-us/products/devops)
+[![Azure Pipelines](https://img.shields.io/badge/Pipelines-2560E0?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAM5JREFUKJGFktttwzAMRQ+L/NcjZIN4g3SUjOARMkJH8AbxBkk2UCZoO4G1we0PBdCEkhAQwMc9IikIXpikWX1bX0FTEt9i8AzaS1qDbvT82BI7SRPwGbg/4AQMHt/NrACYWZF0B4505l/yPr2OGVzCiFXSd6hdNzsG/1dSSdCa4GYzQTwnSAFWqE3tBQeH5zfQTdI+P//gZ+pA1Xc/Zegc/OJwdahIurh/zqBSPPjYi6SfMOoG3HW/DozA4UkNgI/Wtd1qZhX4Ah5JW2PwDzLo0YUnLK5EAAAAAElFTkSuQmCC)](https://azure.microsoft.com/en-us/products/devops/pipelines)
+[![Azure Functions](https://img.shields.io/badge/Azure_Functions-0062AD?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAALFJREFUKJGVkVERgzAQRPeqIBKQgAQkIAEJldA6qATqAAlIQAIScPD609DjIDC9mXxks+82yZkKBTwk4aS3mc0lf4ZqtjWeAg58BbCKnpszJ2AEakmt8zwl5bMUE1YIaF3SFK7/g0OSgJ59LUC1gYEJaFzn5QBsQ/IkoAP6kw8agt4DXd7sYGD+rnQIOXGF3RybEmQRlrRIaiTJzO5Ol5ntnhTTh1NDAarzaP4F07VL+gC5pRQ4XLno0AAAAABJRU5ErkJggg==)](https://github.com/Azure/azure-functions-host)
+[![Azure Blob](https://img.shields.io/badge/Blob_Storage-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAQRJREFUKJGdkrFKA0EURc9MZjeuq2GFRRBBbVILBlIL1oKfkE+wTCf+iZXfET9gC23sRAsVxMQgu4jZNzsWWZBRo6wXpnn3Ht59MPBPKYbXOyi2G1GOOwMywKmTZvvcqW4GfMqk3c5UZtWoERTqqdnqp8l7IfuTm9wzw9gw6CVsBMqbn49LcsuFgYpZXvJ49eIFVtaXODxI6cX+NVlhyQpBIwLWfu/j3Px9lbUggkGEaFWzudvx/Hbc4jgbkyi/6kOswbk5+DYR7i9f/appwBOQP5fefO8orcHql6o/yQpQb4yWFd1+5Pkto+pc4INSg2HFmTZuFK4t+gv+jVQOA7cLwn/rA5rMX7LcR1hWAAAAAElFTkSuQmCC)](https://docs.microsoft.com/en-us/azure/storage/blobs/)
+[![Key Vault](https://img.shields.io/badge/Key_Vault-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAf9JREFUKJFtks1rE1EUxc+bKaTEkqQloUgQoy60FOyAUIQKdhMV0T+g7qX/gWQRcJYFV4oIqXZVcaFpcZEIIsLETqBaSN6gMEkkWPIBfqBmkmnI2M67LjSJ6Xg2D869v3e57x2Gw0qYMchibjFQWgQArX1GgysZWJnZ9fT25U+aajxVb/Dtu6X9rdnefm62x/P3SvFUveFPmrf/C0XUCk8XOznxeb1Lb6eI2jqRpRO9CZNoPO4+K9paWK1onknpYidHP7JEhUkiI0RUvUb08TrRzhTRVpjo6wtKFzs5f9JUAYAhYcbiJyb0lzejE6x8MQj3PfDFGd56wIDQOCDNgc69ti4/bNqvPtkXJDBSludDVcZYEJNXAZlGd5AAyAAiV8AYCy7Ph6pgpIz5ZaYoUZ8MAJhOAKIG4MkQdBlwZAk4fgsAoER9sl9mypjnlY4++HNaf+HAEnDsvqdN6rrEedNxR9zADcASwC8G+M6OlHjTcbsucQnEeOpd6xQRtQdVwYCfAnAkAKGBTUTt1Z3WSRDjElZmdvN1+9GmsceHIACHAV0ZaH0Y2JvGHtdr9tpIiiJqhW8YtiaEsOh7nsTTIInsNInSHRJCWBuGrYXV8nPPsvgncplCTXeyC7aTWbAzhZp+abVe7398X8xDJ8wYGCmnx7+dB4ByL7INYvxwyH8DUWz92odp39YAAAAASUVORK5CYII=)](https://docs.microsoft.com/en-us/azure/key-vault/)
+[![Azure Identity](https://img.shields.io/badge/Azure_Identity-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAbBJREFUKJGNkj9oU1EUh7/78h70Ra0kURwcWmidHEQXUXEQEVyCUZBuirg6RBfX4FJdFKngYKkKdRQrkkGwFTFasKIiWLQItdW8gKQ20Txv3t/j0CZUTIoXznDud7/LPT8udFn3tPTdn9V93bjZDbz8ycdtP+JvwI5O3Oi0WajK53JEz/vvweDlaffNf4nXluXBO5+BVv/K8Xdfn2mMriverMnwM02u1fthTDOIKM7pszdm6vmO4tgvGXquubgWemGEF6zUo0+/r45M14ZaTLGaYLHGPKDSCjKr9aS0iO8beKHC1TGpnkSY3ZkcPLcntWACLGnG9yVQtvp7DishWHbEBiC9CfwgNj84ehw4aOQcmZhq8to0uaUF6ZQgQBiJbO+1784re+DwxJJjYFJAOPRYc3Iy5ERTsbBWiGMhqcwvUWbrlbmqOuW6gR1s5Hz7cbmyFFDkgadHbd4GAYWp0mKU6k1e+tpIXHDr3mYjbT0sZbccb4fTlivSj3AHYReKM95s/XSj0jwWWqpuZKzsiyPpUrdRVi5wJJ9zpLb3djk+UKwOr3v4H7ki/fsnl7t+8j/kp7qG+tc3YQAAAABJRU5ErkJggg==)](https://github.com/Azure/azure-sdk-for-net/tree/main/sdk/identity/Azure.Identity)
+[![App Insights](https://img.shields.io/badge/App_Insights-68217A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAbxJREFUKJFtkT2IE0EUgL/Znd3NJXdaBYKIhAPBs/ByxVUWKkRsY2N9nKBXXmdpq9ikETwQvDJdcqVdBCFlUojYCCdeEMWfjYfJ7O78WMTEJJeBgXmP73tv3oxgybpf69Yc3iaAJ0TvZfPa0SIjZoO9WrdshGiuRVEl8n0AEmM4TZKe79zdF62t4wkrZ0Xfl61iPre5Fobk5FhU2lAIZOXnUL0Cbk3ZyWG31t0pFvIPb9w5x/btPMPPklBIrt9b4cKlkP5HXb68vvup++GgN9dxNZTlQiApXgxwiWB9K/hX2ZJb8SgEktVQlie8N72zJwl8j25TkymB1eC0IEsE718bAt9Dev8nm4oW2tY5rHP8OjEM+o64b4lPDJO8hfYZsd7YaCuj3yit+fFV8/t0vL9/MyitUUYf1RsbU3HuVUcq24mF3+ML5wNhAMicJVbpYKSy/bkfmA3evnseV648yKWZvZlkhj+JZjBKGSTq6bPG1dYsO9cRYKjSw3iUPQ798RSpsYTCHS5yYjEB0Ol0nqRp+kgphe/7B9VqdW+ROdMRII7jknOOKIqQUqplzFKxVCrtW2uPATzPqy9j/gLEwb0NNoTb/AAAAABJRU5ErkJggg==)](https://docs.microsoft.com/en-us/azure/azure-monitor/app/app-insights-overview)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/docker)
+[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)](https://github.com/kubernetes/kubernetes)
+[![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)](https://github.com/helm/helm)
+[![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)](https://github.com/torvalds/linux)
+
+### Data & ORM
+[![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAOVJREFUKJF9klGRwzAMRN/eBEAgCIIhBEIhBEIhFMJBKIRCyDE4CGZQM1A/It8pGbf6iTPx0660Eanc3eI4S/rlQ+kELfHaACQ93oHTXwepunsNuAHm7gBPST9vFZPyFahJ2dK59hG+Bi46dAVKgBWYgdndy8FqqhbPR0AtNeuubAQacAFuoWLACmyStn7pMGPYWJO1DSiSvs/dpxN0i8s9w5asHyovpys09qVcQtlGoCL4EsA9gMK+nAKQZ8uKS7JW2GNYwsGcvh1qknR39zXNtIXaApik4Yz5X+1hG//ZVUl1BL4A04NUTkGsqZsAAAAASUVORK5CYII=)](https://www.microsoft.com/en-us/sql-server)
+[![Azure SQL](https://img.shields.io/badge/Azure_SQL-CC2927?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAOVJREFUKJF9klGRwzAMRN/eBEAgCIIhBEIhBEIhFMJBKIRCyDE4CGZQM1A/It8pGbf6iTPx0660Eanc3eI4S/rlQ+kELfHaACQ93oHTXwepunsNuAHm7gBPST9vFZPyFahJ2dK59hG+Bi46dAVKgBWYgdndy8FqqhbPR0AtNeuubAQacAFuoWLACmyStn7pMGPYWJO1DSiSvs/dpxN0i8s9w5asHyovpys09qVcQtlGoCL4EsA9gMK+nAKQZ8uKS7JW2GNYwsGcvh1qknR39zXNtIXaApik4Yz5X+1hG//ZVUl1BL4A04NUTkGsqZsAAAAASUVORK5CYII=)](https://azure.microsoft.com/en-us/products/azure-sql/)
+[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)](https://github.com/postgres/postgres)
+[![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://github.com/mongodb/mongo)
+[![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)](https://github.com/redis/redis)
+[![EF Core](https://img.shields.io/badge/EF_Core-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAARUlEQVR4nGNgoDdgBBH/////jyHByIhTDgSYyLWRBZstWJ3GiCpHto2M2PyBbPp/HP4fQn5kIlcjilORAwKfsymykWwAAAUXFCdjdsNAAAAAAElFTkSuQmCC)](https://github.com/dotnet/efcore)
+[![Dapper](https://img.shields.io/badge/Dapper-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAOCAYAAAAbvf3sAAAABHNCSVQICAgIfAhkiAAAAKtJREFUKJGFUbENwjAQPEcWFEgYySVN9sgcGcIj0CCUhhE8hOfwHjQUFEYyUopUT/WSHxL7qn/77v98VvPUEyo4XB9KHLQE89TT53K23Hc1MuN4fyaudW2ysBQiYRzUqqVNmyESCLddSRTkEOlXoN/mtSQ42OzVXyIr6ADAZq+ScdW0hKAUtYQiVpu9am7bukzGkXg019VpTCqE7Z8OkUD7E7e6tsUCwDiIqL+rD1YezonxFQAAAABJRU5ErkJggg==)](https://github.com/DapperLib/Dapper)
+
+### Machine Learning
+[![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)](https://github.com/tensorflow/tensorflow)
+[![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)](https://github.com/pytorch/pytorch)
+[![ML.NET](https://img.shields.io/badge/ML.NET-5C2D91?style=for-the-badge&logo=dotnet&logoColor=white)](https://github.com/dotnet/machinelearning)
+[![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://github.com/numpy/numpy)
+[![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)](https://github.com/pandas-dev/pandas)
+[![ONNX](https://img.shields.io/badge/ONNX-005CED?style=for-the-badge&logo=onnx&logoColor=white)](https://github.com/onnx/onnx)
+[![XGBoost](https://img.shields.io/badge/XGBoost-F04B2D?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAVElEQVR4nJ3RSQ4AIAgDQMr//1zjjZAWlx6R0QgRQ0jSneUJ0WALazbuF0joXmGp58u/anJCAHAFFYLBEvZmCHw1VZVvGD1qZ6p2xA7ZcdfmaS3PWZfzR+QD1SuEAAAAAElFTkSuQmCC)](https://github.com/dmlc/xgboost)
+[![LightGBM](https://img.shields.io/badge/LightGBM-2E7D32?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAaElEQVR4nK2Ryw2AMAxD64h9OLAf+zGVEYiiYpEPEr41yasjp7VAJOn1LIPowFMEzeuy9TcAhI6eA6XurprJqmFo36qQztkXqOuYP0FNLBMA3KtWYVxzj3AyeOz/c47IVevuamPSb5/txu45td48vPIAAAAASUVORK5CYII=)](https://github.com/microsoft/LightGBM)
+[![CatBoost](https://img.shields.io/badge/CatBoost-FFCC00?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAd0lEQVR4nJ2S3Q2AMAiEucaN3H8DnQkTLZVDaNRLX8pPPwqITKSqWvnwNgEAxS6UcJ6CLpcPHYZB4AdFPDTxEZG0p78YailhC1H+3uPuRDNWjVT2ceIHtdS6Bmq8U1czAWXpdak2gjgKTzQ9yAnRNuj3yk01W/IDcdo4yO9cOwkAAAAASUVORK5CYII=)](https://github.com/catboost/catboost)
+[![optuna](https://img.shields.io/badge/optuna-0E4C92?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABEUlEQVR42n3SvS7EURAF8Nm/YJUK0YhGLz46iZ6C2iNYr8IDeASdRKJQUKBgfTRUngSJ/Sn2iPUnJpnkzsyZuefOPR1UVTVVNaihrVfVTlWtJH6sqqOquko8xKJBYRbHhjbAc3yQ3HEwhearcQYvAexhPPkxTKCX2kuwTWXCSQrLmXqKN7zjDHNYCuYEVVhLoofpNPSxHe+H7ix2g10rHAZcmX6PLvbj3TRfB/OKw0ryOe8ZYBMHvu0AGzlP4gn9pn5ap/6373qL6jnuWlSncIubNtXR5cyE7i224jepz7WXM/odS5jHxcgbL7GAxfZ3tAXQyxK6odkduemHAP6S3Ee295TzL8l1/hH5auKHv0T+CaCfKe3Tn/j7AAAAAElFTkSuQmCC&logoColor=white)](https://github.com/optuna/optuna)
+[![NumSharp](https://img.shields.io/badge/NumSharp-661F76?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABLklEQVR42p3SvWrVQRAF8N/+b9Tk5kPRxsJGDYgpYpkmPoFPIPgIYmst+CBW1nbWPoQhYEBMISgkuYW5Kpocm1n8eyGNA8MOe/bMx5llZEnWk0xdYEmWkyxBS9LwEBv4ghvYxyFa+SPM8BWX8L5nOkjyOcnLJBtJNkdVrif5mWQvybMkLcl0qfAT3MUO5riV5Bzfy49xH9uttSRpnTjBOS7jTrV9s+4+Yqh43jsZRsQBu9jDa2ziE5Yr4TB6/zfoI+EXVkuUU6xX1Y6D3upZne/wFE/wAPdKxU5oi8Ru3yr7C7zC4wX8QuIEK5iWEHP8Hs1pccazkf+oh8+xVZ9jNsL/qXitqq2VMFdaa0c4SrKGq4VPk6xg6MS39QEOcRv7SSYlyoA3tdtZ7fmD/7U/xfd4551Si1EAAAAASUVORK5CYII=&logoColor=white)](https://github.com/SciSharp/NumSharp)
+[![Numpy.NET](https://img.shields.io/badge/Numpy.NET-661F76?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABKUlEQVR42p2Su0rDUQyHv7QFq3gFcVCXblIEF+kgOAh29E1EHH0KwcdwUBx9huLk4qCLTqKDIlovvXwO5u+loIOBEDjJL+c7yYF/WqgBjAJNYAI4Ax4yloAysJzeyrMWAOqxH7avjqhrRWd1M3P3alVdVacqmZ8GesBNRLTVjjoPdIFZQOA6Il7UJ8BSCjuJNKPWgB2gBqwD20AAw1lb4hvOSeJ0M/bUYbXpl11m7bI6WRkY1hvwClQzPv821ULYzXgAbAGHwBEwBPR/4A0IC3uJiDtVYOOvPQ4Ky2oZuAXOc9LT6ejnMD8R+umPEdED9oA6sAjs5lPaEVHURSEcyyYLagMgIrrZpJpkc+pK3t6JRGgA47mvK+DiG0kdWErsK+A0Ip7++8d5B1Ekp5bC4TEbAAAAAElFTkSuQmCC&logoColor=white)](https://github.com/SciSharp/Numpy.NET)
+[![TensorFlow.NET](https://img.shields.io/badge/TensorFlow.NET-661F76?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABAElEQVR42pWSMS6FURCFv7nvFU+FUL2CiILai8ICXoHoJaLRiTVYgA2QaCyAVqVkCXqRWAIRCf+nMOTmz++J08yduXNO5s49QQtqAAUQICIa/oJaumop1kkItVfle+qVOmpN8hOp1dR19dovNBlP1WG795uwqp6rrxVpVz1U39RHdSV759VeUQfAGjAGBqn1DixGxBmwAywAs3k3BQTqTKocqE/qlvqiXqpDdVs9Ugddo06rY3Uz85Mc96K96c4Nq8vqXJ5v1Ls899u9pfqOAvSBRr0F7oH9rH90EiuH9HMxG8BzRDwAJSKcZIDIt47UY3Vpomt+8er/UNmqdPm2xifPpwEN2je3sgAAAABJRU5ErkJggg==&logoColor=white)](https://github.com/SciSharp/TensorFlow.NET)
+[![FinanceSharp](https://img.shields.io/badge/FinanceSharp-16A34A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACuklEQVR42n2QW0hTcRzHv7//Oc6dc6Zu5lytG4XlIC9UQg9FRiBqRKkldPOpghCjguqlaOwhrAwKoqAeguitF6VF0ZsTIirCClMCLy21yy7HzZ2ts52d/7+HCOqlz9Pn8cMH+AsBEACc6GypPn/s8Ar8B/ojwWCQhUIhHr57+dSX74kLviWeUq+n/HnWQz0bwpfUaqexRSLeVciyIe2u/UwGABEMMgqF+PvB+/VOzXEzkTaQM/MwLbv7y5vZh+1l6V4hsTZyCcDiCgFPZQAYBhgAPjY91QQiMfl5tlizeiUYI/opaCkUHLeJXjCLvExBy9eTLq8MAHfGxwUAjE5M6gAolcmwSnc5Cvmc9HzW/er0WrTKS/iq3BydZhJ5PZpVwQBgenqaAWBbNwQinCMd1xel6Px3yeTy617p3le46YZtYPyaxG8p/fZF5Up+8p9TPp+v7uzxg4lzR/eL9m0b35bIMsQD3BGPIFLXS1t+/4BDACT5Ghq02uWrWlf6lw9YxUL/p5n5iu07dmLrjtaSeDxZF6jKHlNtCleeMS8/CnY76kLjVggQtLmxscP4aQ4KEGybI5PW4V23CQ27+zDz+CpiCxle6a6YK2QSHR8mJkb/1EmNG5vq8wWzS1VVW9NUtszvJ5FNopBdEEYqzmEZAuCessoqX8+RQ4uMsVQ0Gs3JBVszA+trpfZdbRSJjFB9fR1isTg0pZRqDrRJ0WgUgdr1YnDo8d5AINCRy+X6RkZGbjNflfQym83oP2JxxGNxPRwOp/WFBZ5aNPjw8DC3ikU+9OSZEBCWruu63+/PCCFABKBz757w1Mzn3Uk9ZUqMFVXV5SICFg0D5aqKNR4nJr7pUF3u+bGP72oAmLIAUOJUet2e8geJZJJUrYw5nc6iQ3LA7amCQ1Fwu28fei4OYC5foObmZjkSieAXQP81CFmP2JUAAAAASUVORK5CYII=)](https://github.com/Nucs/FinanceSharp)
+[![OptunaSharp](https://img.shields.io/badge/OptunaSharp-661F76?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAACV0lEQVR42k2Sv2sUeRiHn/f9zuxmM7PJZLJho4YId1HhjtNSJY2g5XGo+Bf46/6AgxMsLc9GCzs7QYSrDyz0Ci1ExE7EXzFREiVGN8n+mt2d+c57xYLcp/sUz1M9Argkbf6F6EUgBgQzATC+z0BMhC7G7Z3W5z9dkjavq7o/rCyrvvRiZSlOFRkbAEEZX++LqnPu+EQtiiRJ54dl6YNK1clkWBMJQrZ3dxDG8Bg3RDwzUzPW7vYs90URFIWvTCcR545cxg/qdLMPvJh+zKuPbwkCh+DI84wzy78TdyP5d+OerH/Zqkg9bZRnj52XA7WTDOaEb5/WKbdX6dY2qWYJedmHeMBi8zc2Vt/B8D3P2k9MQ5B07hdWdl/z8NFVovmYwUSDQ5UTLCz9CnmTH8JTaBsWFn9ict9hNPeiBhR5HzHj8/YWWbdNMMrpTCmrrx+w8ONe1rqfyHSXra/veL52l/ffNlAAnFKYp1GvUwlDvEKYFcymS7hwP1Ol4iJHr9Ni0GsRhiEqqoSFY7ayh+X9lwhpEGiAuhAfGh19wzrPKIohM8kSR+dPsy9tooVhre4bGrOTxAcPYpN9RvFHiukqm2sv+fv+Ne6/+AdGHeYWm2Sp0m63TKZn5g3JiaM6TpRhPsSJcuHMTVZWnvLg+R1GHqKohgqMihH9/gBJ0uZQkMB7LwYiCC4ISKbqZKOMrJeh6vDeU4I5EVOVwk3U4kRVl1VlnJoKZkav38PnHlUHGM4pTlWcUynNbrhB1ntYnYhihJ8xwnFkiHMOkf9HjplIx8xu7bQ2r/wHCQz9EwYmAjwAAAAASUVORK5CYII=)](https://github.com/SciSharp/OptunaSharp)
+
+### Messaging & Real-time
+[![Azure Service Bus](https://img.shields.io/badge/Service_Bus-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJNJREFUKJGtkMsNgzAUBPchCvCRWyiHIx2FDiAVUEJSAqkASnAJdDA5RJEsxzEfZY4rzfus9C+AGuiBmTczcN2SXCDEDLlN4w8JgNSWe04IaENx2Cl9GAFngJd0Odjhzb5u34cvJD1PiFZIStec5yFJAlpgAtaNYiagA5zFo4BGUhXFi5ktYVAmzqgk1VHmT7yT5gUcJv1FkjB/lgAAAABJRU5ErkJggg==)](https://docs.microsoft.com/en-us/azure/service-bus-messaging/)
+[![Event Hubs](https://img.shields.io/badge/Event_Hubs-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAUhJREFUKJGdkrFKQ2EMhc+Jv4uLi4KbHQUtiC4uYov4Dm7esVBXJ4fWQZQKTpbebu0LOLtIr7i4KIIVO14XKSg+wf8nDl3aa4WL2RLyJeeEAP8MNpvNawDbZtbPBZBrAO6diMypKs3sLidYFJE5JyJDkl/VarWeB4zjeJ/k0IUQLkVkEQBOXzfqJGtmdnK8+vTXoGoI4ZPjlbO39ZKqlEQ0+f4IBZgdgOxe7L50srQbT0bNfgdkCgAwEASObosRYcsivnteHqQAIBPG1QoES1QrmFpKQQ8hPEMtgrHuvStM3SjOd4LN9mbo3+FdBGONFDb2+qWs1ImN6l1ERaLeReJ8R83K4vwvfwDg2u12x8y2KpXKigKJmEGBpDHykmaBOI4HJB/YarVuAGyq6tX062ckihwCeHRmtqSqCwByPUAIASIyn6d3avwAgnaPmYA3c7EAAAAASUVORK5CYII=)](https://docs.microsoft.com/en-us/azure/event-hubs/)
+[![Event Grid](https://img.shields.io/badge/Event_Grid-0078D4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAVRJREFUKJGdUj1LA0EUnLd3e62xsA82fhLuH4hYWqiNRIlFQAgEizMgWF5vq9ckIRLCIalSRRCCsbY5sDDYpVIQSWM+LtnsWmjC5aNInG72vZl5DAv8E5ROp19839+cR2QYxpPOGFvgnH91u93rGUVnmqZ1dM55i3PeSiQS9uW9Ge5LhK52PQ8AUuUNS1O8OuAAkM/no0T0QUG35N1aCVB7IxEKdeeoFh5PZkHSawvb/5YHTrRGTrRGnaY673X6+wBwnGuYwV0adzrJNSwQtojgjQwULKGw7cYXPQDQpzagQFCjpgqKpuT8wn40QxcP5vCkVDliDfjEqa7rRqSUS7FYrJIsrk+WA9Sdw9dhOYVCYYcx9qkLIYp/b6u9JmyJ/m02/lYCgNPsikVMqwZdpJQ3UkpQJpN5V0rp83wAxlhbF0K0hBDLAOxZhL7vwzCM51l2p+IHr36JbUYLfeoAAAAASUVORK5CYII=)](https://docs.microsoft.com/en-us/azure/event-grid/)
+[![Kafka](https://img.shields.io/badge/Kafka-231F20?style=for-the-badge&logo=apachekafka&logoColor=white)](https://github.com/apache/kafka)
+[![RabbitMQ](https://img.shields.io/badge/RabbitMQ-FF6600?style=for-the-badge&logo=rabbitmq&logoColor=white)](https://github.com/rabbitmq/rabbitmq-server)
+[![SignalR](https://img.shields.io/badge/SignalR-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAExJREFUKJFjzNCq/s9ABmAiR9MQ08iCzJl+tYUhU7sGhY8OYPIYNqIrztSugStGNhRDI7IkPgDXiGzT/3+IqMXmXAYGBgbG0QSAGwAA4VAXQTn5pv8AAAAASUVORK5CYII=)](https://github.com/dotnet/aspnetcore/tree/main/src/SignalR)
+[![MassTransit](https://img.shields.io/badge/MassTransit-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAUBJREFUKJF10jFLm1EUBuDnMwQEtXQQbTo4SKFdXDrZpU7awc29BUFQ/0HaPxCXSnEqAR1K2x/g2qkgKCiIsYkILmIlqaBLhyLGpEPOR7/GeJZ7Oeee933PeS93I4nzEzZ61HvGV7zAPA7QxjUmuh/mMvcSlrCAUzzFOi4xiK372MrBcIvluKeyZ/Adr9PHfZm5HuFDqGhFLkE/1kJyKdvYh008xhD+hLxWsP9GBePYzza2UMdYFHbxAO8CZAXn+IVXvWY8xg72MItVTKEWYDm8T8dLMo1lnOAiFIxgGNVgq6KJaXxL7chFchuHMWMdPwO8gCIGkEctZUxCZhOjeIgbNHCFHyG3jZdYzNpRwVs8CYmF2OhRgHwO+cXu5RRxFsh5PMNzTOINvvjn73/LERtr63yGjzpfcE7Hz4aO3y34CxGJT2RKOh42AAAAAElFTkSuQmCC)](https://github.com/MassTransit/MassTransit)
+
+### Libraries & Patterns
+[![AutoMapper](https://img.shields.io/badge/AutoMapper-BE161D?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAG5JREFUKJGVkjsOgDAMQ5+7MDD2/kdkp5MZEAj1R+qtkV+ctJXtHTiAjZgKkGX7XIBeWLa9CAGgXrFuJqnxNYmP6anX5yE4a/JVGkGjsX/B3l7hxNkaXVCS6stpPJGk0HNElbj/3qpKAvIiXIB8AdJ9PgyiwlUhAAAAAElFTkSuQmCC)](https://github.com/AutoMapper/AutoMapper)
+[![FluentValidation](https://img.shields.io/badge/FluentValidation-FF0000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABR0lEQVR4nF2SPy+EQRCHf/ueI4QIVwhfQEIioaDQajQKDVFqlXK9RqVWioj4CCqdFgnJCSqJfyFBkJAc790jczfL5qaZzTO/2ZmdHUkSkLkvuJ8FcuALmG6JNXwGhBBCPSa73UsyQaeklwhdWzMfwVgSLAADQBV4B/piFY9PxsOiizaBHmfdwCvwAHQ4KwE7gFVcMnDCv10AMy68Ba78PAdcJ7ojg/3AAnCQBLaAOxfvJXwfmAd6k3k0+/ekVrNnTKTarGWaFUlnkr4T9inpVNJ5UqCZA4wCGz4Q/N3PwBNQcfYIrAPDMWnXp2r2A5SBInADXNpUgbWkbVuKbUtcdXAY/xPoAt68StHZFHDs2nKjX2AZaE8WYNC7+PD/i+tm/7vytznJo+Pt40lrI2ksWptD8zVJdedDknJJVUklZ7bPVqkQQsh/AcFcyd6RHxTUAAAAAElFTkSuQmCC)](https://github.com/FluentValidation/FluentValidation)
+[![MediatR](https://img.shields.io/badge/MediatR-1695CA?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYpJREFUKJGdkD1oFFEUhb/7ZmYXlgj+hBUFsQniTyUsi1YSy6Bgk2oLS5WFVOkUomBlGyJCutilSRHExjIgidoJKQSLCIkzzib+MG9l5713bcI6srhFTnX/zjmcC0eEVJuX27k676nFMZ2LpwRgZbun3jsiY/icfkweT0+7IfH083ervhzM2oOcTmuKqebxf9SdDzx9/Z7GiUnixgTpvatiAFR11sQJUVJj+dYV6fUdqS1JbUlWlDy8fk5MrY5JEtSVAJiqcr1ebwE8u3FecjsgtwM2du0FgOLRjIj8PY+rxHz+5odh3XcAbHYufxr5jKrEI8ND7P92/1uNOlbx/ajEXwM/lmhQlf6P9FLWbcvk4sZZgObSlpZBKYPSXNpSAFSlKL6dybptObm4ecwgoslEtAuQ9958BQgSWkNp1bcAiGjxRQ4A9ueu/ZTGwpri3W2CzpDUHtgnd+TQ1QMm67YFoLGwpjj3ApF1ouhVbPd2wJh1glrQoVHWbUfVTHZvB4S7iLlPCGPzj8UfCUagy39sBEQAAAAASUVORK5CYII=)](https://github.com/jbogard/MediatR)
+[![Polly](https://img.shields.io/badge/Polly-5E9440?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAYFJREFUKJHFkTtL22EUh5/3TdJYEXQoVhxEG9RBMCExBu+hhU7OooOCXyCjeAcdFOJglyztJqIfQKcWUSveClbUQREUzeIl+veCeEn+5jiIIUHBTX/bOTzPGX4H3jrqNaAn39lu2VsLdi4UxcxTpcWwYUb0uU6GriqdE8nzss8j/burg63h8L3t+kOu3GrkRiE3KouvfdWRJ7Dh54wki/u1XlnamBa73S5Ts3Pdx35/BoDR6xIcAd9Zc8jfDvBlZEc2KjwJ+W+5e3KhzLW1sro2Yc4XpxwFoPFHnbSE/AJQMPxf/rjdMlriCgF05Zc2deQ5618sxxHwSVlBGnabAoSVozY+Ri5o/D2IEQOzJp3g2HJKkerkW7l8mvqnHAGfABR+tpGdaU0ApRdRLn9d0b+3niJatbrPOvnuFbZN9tOlogkWzcMo4we3aC1oBUPx519TAJtVHolryMkUlI6DRRAtWKxCcFExEF5/ZiYWs1533LgTdRYTjKhgxB5LfEl6nzwA4zqXXaP6j5cAAAAASUVORK5CYII=)](https://github.com/App-vNext/Polly)
+[![Autofac](https://img.shields.io/badge/Autofac-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMpJREFUKJGlkbENwjAQRf/ZBoEpkFgAITkD0LMIBTswAiVTsAADMAE1PYQuLIBEKOLEFCaJbSIRwpcs6073/t3pgED9UbQUUhnvDdU2rCM3EFKZsMCVTucC2OcAwEqDb5A1Pmlgw6qObSC/c0wcg9mUEVv/ArLeJCMhVe6M3B7uAqEr9CdIuLsJncbebQ3oVkdkU2AF0494XFeZRWDC/fhC9j+LctQDAOjn9ViNQlgBKD5NKLNdG/Q+EQCAyyjhUu1arl6Lyyhpyr8ANPs5fllfW3oAAAAASUVORK5CYII=)](https://github.com/autofac/Autofac)
+[![Serilog](https://img.shields.io/badge/Serilog-FF2518?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAMdJREFUKJGdkjsOgzAQRGdCCgpETYqUpMiBIkWKFCUX4ZQ0XIAjQIGYFDaL+SSgbONZ20+zuzaVZ8KeqGq3Xk4AgMM/0D5wBdoGqxp93y8gADj+gkhC7/vq8To4QPJz6zrget4AZxBJkFyUfJhDABzkL0mCJJAcBzUBHy93CD/BqkaSJCCJtm3N3WDlmZRnsvAagJyh00VRTPdCsGmaVWjQaZpaPpb6vCGOY0utr0BHUWQ9m2NZll+dQj3cp31y/wxhzF3D5/gApZerAI5KHOMAAAAASUVORK5CYII=)](https://github.com/serilog/serilog)
+[![Newtonsoft.Json](https://img.shields.io/badge/Newtonsoft.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAFhJREFUKJFjYCATMBKp7j+6PiYSNKFYQkgjuk3OcCtJ0IQMGJE14lOIoomBAeFUK1I0ITOIsQ1n4FxHl8SlCasADhdgqMMVHQQTBi6NBP3MQkCe2CRJPAAAASwJbRk0AU4AAAAASUVORK5CYII=)](https://github.com/JamesNK/Newtonsoft.Json)
+[![System.Text.Json](https://img.shields.io/badge/System.Text.Json-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEtJREFUKJFjDNS+8p+BDMBEjqYhppEFmbPuijZDkM5VFD46gMlj2IiuOEjnKlwxsqEYGoN0rmK1CR3ANSIrJuRcBgYGBsbRBIAbAADpexgOcy140QAAAABJRU5ErkJggg==)](https://github.com/dotnet/runtime/tree/main/src/libraries/System.Text.Json)
+[![Hangfire](https://img.shields.io/badge/Hangfire-2B4A7B?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAEBJREFUKJFj1Paq/s9ABmAiRxN1NV7Z2oKhCJsY/Z3Kgk3wwJJy8jTaR3eg8K9uayVOIyMjI0Eb6R84jEMnyQEA1JYNKUMboZcAAAAASUVORK5CYII=)](https://github.com/HangfireIO/Hangfire)[![Quartz.NET](https://img.shields.io/badge/Quartz.NET-00A650?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAU5JREFUKJGNUj1LA0EUnL3EYKVgKbi7uYuoB1ZiYS2ClUksLEQQwVpLe8E/oKVdhAvYiYUflaKFlWAribmksLMJGBPEGwvdZHOn6FS783aG92afgIVxKd1IOFWbA8VWtVE7QAzCHDyl2XvMWwKhEGLNUNV6KOJieErTCGeAAVfK+d/qXSilsoaMF9PlZeIov2mJHxJuvu9nbNH58z3f3juP5u5K/WEbO18zRTed11azNyIvF692MZjOTBjuqRGmbGMHAIRwKgRahly/218AAFEuRiRHEqEASAMAgQ06YtKQpbltAQBL13sU5eILydOc1v0GOal3TO+u1BdxZ5InCApst9vJZO24PZk91Frn3TF31lOqAgDTUz4RFBgxqiV6NmJP6W5IWaXO+v4wKJDkMOzN+RbXAci4qb01Q8erbK4EyS36CyRHSab+8fRHcekT4FeMNZxVZwUAAAAASUVORK5CYII=)](https://github.com/quartznet/quartznet)
+[![Elsa Workflows](https://img.shields.io/badge/Elsa_Workflows-346DDB?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAATklEQVR4nOWSwQoAIAhDnfT/v2wECmYJ2rV3dA6Gjsghip9lGnuBCojuccdkrH3umo6oXUYmiEsCAFHHq5GfctLHRgmluJVkO3OlRfaaCbyaN+/NCd+IAAAAAElFTkSuQmCC)](https://github.com/elsa-workflows/elsa-core)[![Pythonnet](https://img.shields.io/badge/Pythonnet-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://github.com/pythonnet/pythonnet)
+
+### Testing & Benchmarking
+[![xUnit](https://img.shields.io/badge/xUnit-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAF9JREFUKJGdkksOACEIQ6n3v3NnYXQClJi0K1Me8tGIX4y3LgORhM53Zh2DpAKSpxhunzznktRiULcCudviyVHa7UMXMjvNM1Vaqqwjq1VrOdZzqEp1aY2xv9wUmHSZD0iaZ8DosGD5AAAAAElFTkSuQmCC)](https://github.com/xunit/xunit)
+[![NUnit](https://img.shields.io/badge/NUnit-149C4A?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAASZJREFUKJGNkj1Ow0AUhL9dUpEN2E6oAhIdd0DcxBFlzoRFa+ciSJyBGhc08drIm9J+FPFPYicKI620K803mve0ilMKTQYEAAiWjZsPLZMBIAA2SvGnHgD5rggC9SAAJE6NwdBI9vZNYHzUanaUJ3FJsfvF515aWLWQjVKC9RKUPtkeqSnef/DWS0hc7/KnXgdJXPLy9IzEJRKXe4PS3F7fdDma0FgbpX29ut77FKPKajXDRimEZqsBv13EoT6+PvtHE9Y1g/mZgS5LI9h8V/wbaLzZhI2b3109isTlfiZ9ooTulzZ59SBxCw1Q1RXW5SDNYg6W0t2lxjpLVVeD1NDItsxERITQHB0REetyaX/WWI3RulxadcAAUmcCtkD7sTMStxha/gA6EJNR2jO74gAAAABJRU5ErkJggg==)](https://github.com/nunit/nunit)
+[![TUnit](https://img.shields.io/badge/TUnit-2C7C9E?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyklEQVR42r3SMUoEQRAF0FfjuDMYu97D0EOYeQIP4GUMvJEnMPMAG5gowmKzrmXSA2MzEwjih6KhqOr/+b9Cg8wMC4iI9BeIhm2DM3yhq3Ws7z4iyjTb14WTiDjiFld4wYBSl7Z4xMM02zcKPitDj02tw6y/KnXAiAvcVbZ77FAi4uOH1JlzBSUz4am2dxHx1prTtVHUOAqucYPDrG+RccqrSr7EKcaI2LeL3UpMA7IaMy4N9CuX847n+vHrry4jM88zc+vfsOTkHN+AHFViNz7G0gAAAABJRU5ErkJggg==&logoColor=white)](https://github.com/thomhurst/TUnit)
+[![Moq](https://img.shields.io/badge/Moq-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAJdJREFUKJGlkjEOwyAMRZ8ZWNpLtefjDlwhc4bcoF3ao2RicYYIGlxLpS0SEh/8vi0beF8PQM2+2SAxWh0jN/4IfoI6poKjUIMD8PwSApilZlN9JRWRpkWEdan3cLrs5+DZpZQQ6ft2vsLB2wdzzkP12pkpoDHGTq9L/x6Au+dWSum0Gfj08zj+/gCjcIu3XRVgdoDJJtkAMIsxmqjE9/IAAAAASUVORK5CYII=)](https://github.com/devlooped/moq)
+[![FluentAssertions](https://img.shields.io/badge/FluentAssertions-512BD4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAOCAYAAAD0f5bSAAAABHNCSVQICAgIfAhkiAAAAJFJREFUKJFj/P///38GEgETNsGXr94wMPz/h1MTI7pNv398Z2Db/hPO/x8ogKGJBcWE9R8wFMLE3jowMAgJQsX/QwHDuvf/8QFkeax+YmBgYPjgaI7TTzg14QP004QIiLXvsQaGy7XvGOIM6IoY1qFqxmYQhiZkxds+/8GqiQWnswMFGBjXfWBgYMSUw0hGxAAAGrbhWcSiBIMAAAAASUVORK5CYII=)](https://github.com/fluentassertions/fluentassertions)
+[![BenchmarkDotNet](https://img.shields.io/badge/BenchmarkDotNet-F08519?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAKBJREFUKJFjYBj+gBGboLFV7H9k/tljizHUMTIwMDBoaWmxMXGqtDEyMHiwsfNr//zxEUUROwc/hmasNjIwMDDoGPnBbWXn4Gf4/+/vg3MnlinCxFjwaWBgYGC4cm4To46R3392DgEFBgYGhn///v1nZGTEbiOa5teMTCyil8+sI86pDAwMDB/a5QQZ/v1+x8DAwPA2+gSDsoI8XvXDDQAAhPoo8Ff+WdQAAAAASUVORK5CYII=)](https://github.com/dotnet/BenchmarkDotNet)
+[![Testcontainers](https://img.shields.io/badge/Testcontainers-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://github.com/testcontainers/testcontainers-dotnet)
+[![SpecFlow](https://img.shields.io/badge/SpecFlow-6B4F8E?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAA20lEQVR4nI2SzUpCURSFv6thAyHoPQp6isCQXqBBOLDHkaaNGtgziDgzhZqk75DjwCaNjE9unIvHwz3ammzYa69z1v6BDNSmWuT4qqgR4r06VW9T7pjwwx0e1dOQP8kJ/yypc3UTid/Vy6z1RFjiM3rgW31Ia1P/vyE+A13gCzgDntQX9bwS5xpvF0UxBq6AEbAB7oAJ0Kz7MUUDiPsyJurwo94AS6ADlFMdAtdRO7XDWUXDWav9tDYVzpJ1vKkXgTu4jkUkGqitkM8eQHU5PfVVLVexx/0bx458C8Cs94v+1r81AAAAAElFTkSuQmCC)](https://github.com/reqnroll/Reqnroll)[![Reqnroll](https://img.shields.io/badge/Reqnroll-C4D600?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAyUlEQVR4nJ2SSwrCQBBEK7r3CBqCHioIXsKTuPEiOY6LiLiTLNxKkied9MAgZvwU9Hx6quhupiRJwNz3DXAEaqD1qD23jrmxaAc0TKMxzqt4GxGsSh/de88FbIMoB+5O6BIVO+cYN59J2ktaSOol2X0KM+cYd58BZ0lLf8wSQgPDKl1M2Eoah/0eXaq1JEx49RZCGyngcTVh5bPZ4J/QO7ey71j98R2rsT6UPxigDKJgOXPPLVHR3gbXvPNrARyAE/DwsLPlilj0BNlLfslWyfNhAAAAAElFTkSuQmCC)](https://github.com/reqnroll/Reqnroll)
+
+### API & DevTools
+[![Swagger](https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black)](https://github.com/swagger-api/swagger-ui)
+[![Postman](https://img.shields.io/badge/Postman-FF6C37?style=for-the-badge&logo=postman&logoColor=white)](https://www.postman.com/)
+[![gRPC](https://img.shields.io/badge/gRPC-244c5a?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAG5JREFUKJHVkMsJgEAMRF+swFIE7caj1WgfWo2yLdiCFYyXgL8Fc9R3CYHMTBj4N5KSDlaf3fmmyIh6oAImMzOgzJk/hEANYGat73NUGCInXAAkjb43YbdbOUmSXhM9qQIGLwdgiyauutKH3/0eO4U2Tayiu53oAAAAAElFTkSuQmCC)](https://github.com/grpc/grpc)
+[![RestSharp](https://img.shields.io/badge/RestSharp-000066?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABOUlEQVR4nI2SvytHYRTGPwcxmaSQZJCkSBQlFvEnWAwGk7L6SywmoyxGi02JsshMokwySUR+fHT0Xl3fUt9bt3Pued/nnOee5wFAbS1xWV0veRvNPGqL2qHuq4tVrSlgiQPqtTpUsVEj3/+AP4dqp/qqnieDxjtVXqfSGhECq0AC+oB2tU/tUofzvALXgZ+luFa+9yLiCegHuoFJtffP5NpWF9Qv9V0dVGfVY/VMvVQ3q/uNK38GstthRNyWzvvASdKOiNOsRcTnDzCT1C0isvMW8FEaPQCPwBIwrR5ExE5OrCTILh/qJHAETBT688AGMALcAxeFxVf9/1ZyZeqbeqful/qM2qNO1ReTE6vNzpY4B4wmXXUcuAHegas0SZHs12opUNJ7Ucca3dSM3VKO3dSrMnnNUX8s9w09ORWPPHq8uQAAAABJRU5ErkJggg==)](https://github.com/restsharp/RestSharp)
+[![Protobuf](https://img.shields.io/badge/Protobuf-4285F4?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAAeklEQVR4nGNgwAKuOJn+ZyAAmHBpukJAM4pGdMVX8GhmIqToCg5xFmKc9X03+3+sNursO83IQCJgxOc0HaiB2GwESzi1fsGQ2FfNw0jQqdiAExbDMAKHsGZhDDmcNiID71NvMcTg/sDnNGT/YmjEZgA2DXgBoYABKQIAhYI2ikL1EewAAAAASUVORK5CYII=)](https://github.com/protocolbuffers/protobuf)
+
+### AI-Powered Development
+[![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/anthropics/claude-code)
+[![Codex](https://img.shields.io/badge/Codex-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABg0lEQVR42oWTzSvncRDHX58v6vfLQ7Lh4CkXpdT+AbKcHCmHPbrY2BsljtpkcdjigMNqlYPLHrSSdk8rYQtnu7XyECdHB2UVrz0YxV52Lp+ZaaaZeb/fHwDUTC2Kd149U0/VbbVdzRGmZs+dB/+T+k2tU5O66IPtq7vqm3+bS9RJ9STienVV3VRfqWUx+VgdfWyqVffUnzGhSj1Rh2L1fnU6avPqkVqdAR+BdaAPyAF1wDKwBexFLh/b9ACnQEtSz4FmoBPoAt4BG8AqUAzcAbNABTAHtAJNGZCAEuAGqAfKgfWU0lhKaRgoANaA1pRSB/AZGCHgX4kb3qoH6uwTpN+rL9XvapdaqV5kwAfgtboF7ALdwB91Rh2P+Ao4B/LANXBfCDQCmwHIWtz3G+gFBoBb4AVQCFwCg8AhAf+Rmo/VptSBoGIwqKkKqn6pP9TaxztGg9x2tVRtC/K/qA1Rc6xOqMXPJKf2qTshL9XFyNeoX9Wl/+k1F5O3Q+hn6sLTjwDwF5hnh57BNsoQAAAAAElFTkSuQmCC&logoColor=white)](https://github.com/openai/codex)
+[![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAABHElEQVR42m2Tu06CQRCFv1k2UnkpiCEarXkVKq14Lmp8AV4CKjupqGnU0GilNkRljwVnyRqYZLLzn7mds/kXAEnhsyvpWlJISvYw1m1r8UfH51jSh6RRkxsZG7e1NVk3LLWztaRH+9rY0nUBkAEiQrt+JUDAlX0/G0iuO6B5L2kj6VfS1mcbbyTd7XuaC1iYUtGhVeypysoRUUzxFPgBtsAJEA3Nb6ADnO2URUmSckQUYAU8AAM3tT5wbuVFOQHFkwswjYhnYAJs7BNjU7Oh6QFJM0mXpo2kG0m3jpNzs1qfJGXH78CwUomI14h4aaQMgTcPyrm5hE+g3zBI/Lc+8OU4Wo0XwLxqiIjiTTU/B86PaezVH/mY+QH0KvAHJIcwKBy7ufUAAAAASUVORK5CYII=&logoColor=white)](https://github.com/ollama/ollama)
+[![MCP](https://img.shields.io/badge/MCP-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://modelcontextprotocol.io/)[![Agent SDK](https://img.shields.io/badge/Agent_SDK-D97757?style=for-the-badge&logo=anthropic&logoColor=white)](https://github.com/anthropics/anthropic-sdk-python)
+
+</div>
+
+<br/>
+
+---
+
+<div align="center">
+
+### <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="40"> Let's Connect
+
+<br/>
+
+**Open to interesting collaborations and impossible problems.**
+
+*Haifa, Israel* 🇮🇱
+
+<br/>
+
+<a href="mailto:contact@nucs.dev">
+  <img src="https://img.shields.io/badge/Say_Hi!-contact%40nucs.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" />
+</a>
+
+<br/><br/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=6366f1&height=100&section=footer"/>
+
+</div>

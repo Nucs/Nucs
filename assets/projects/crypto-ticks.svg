@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-label="CTD — crypto-ticks">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FBB03B"/>
+      <stop offset="1" stop-color="#B25E00"/>
+    </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="round"><rect x="0" y="0" width="128" height="128" rx="30"/></clipPath>
+  </defs>
+  <g clip-path="url(#round)">
+    <rect x="0" y="0" width="128" height="128" fill="url(#bg)"/>
+    <ellipse cx="64" cy="4" rx="86" ry="52" fill="url(#sheen)"/>
+  </g>
+  <rect x="1" y="1" width="126" height="126" rx="29" fill="none" stroke="#ffffff" stroke-opacity="0.20" stroke-width="2"/>
+  <path d="M1087 539 1374 448Q1308 208 1154.5 91.5Q1001 -25 765 -25Q473 -25 285.0 174.5Q97 374 97 720Q97 1086 286.0 1288.5Q475 1491 783 1491Q1052 1491 1220 1332Q1320 1238 1370 1062L1077 992Q1051 1106 968.5 1172.0Q886 1238 768 1238Q605 1238 503.5 1121.0Q402 1004 402 742Q402 464 502.0 346.0Q602 228 762 228Q880 228 965.0 303.0Q1050 378 1087 539ZM1958 0V1218H1523V1466H2688V1218H2254V0ZM2878 1466H3419Q3602 1466 3698 1438Q3827 1400 3919.0 1303.0Q4011 1206 4059.0 1065.5Q4107 925 4107 719Q4107 538 4062 407Q4007 247 3905 148Q3828 73 3697 31Q3599 0 3435 0H2878ZM3174 1218V247H3395Q3519 247 3574 261Q3646 279 3693.5 322.0Q3741 365 3771.0 463.5Q3801 562 3801 732Q3801 902 3771.0 993.0Q3741 1084 3687.0 1135.0Q3633 1186 3550 1204Q3488 1218 3307 1218Z" transform="translate(13.68,81.55) scale(0.02394,-0.02394)" fill="#FFFFFF"/>
+</svg>
